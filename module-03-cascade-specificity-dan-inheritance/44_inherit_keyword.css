@@ -1,0 +1,27 @@
+/* ==========================================================================
+   44_inherit_keyword.css
+   Materi: Keyword 'inherit'
+   ========================================================================== */
+
+.custom-card {
+  border: 2px solid #2563eb;
+  color: #1e40af;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #eff6ff;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Elemen tombol secara default tidak mewarisi warna font atau border */
+.custom-card button {
+  /* Memaksa tombol mewarisi border dari .custom-card */
+  border: inherit;
+  /* Memaksa tombol mewarisi warna teks */
+  color: inherit;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}

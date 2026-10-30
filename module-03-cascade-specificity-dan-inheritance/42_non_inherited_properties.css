@@ -1,0 +1,19 @@
+/* ==========================================================================
+   42_non_inherited_properties.css
+   Materi: Properti Non-Inherited (Tidak Diwariskan)
+   ========================================================================== */
+
+.box-wrapper {
+  /* Properti-properti ini TIDAK turun ke anak: */
+  border: 3px solid #7c3aed;
+  background-color: #f3e8ff;
+  padding: 24px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 480px;
+}
+
+/* Anak di dalam .box-wrapper TIDAK mendapatkan border 3px maupun background ungu secara otomatis */
+.box-wrapper p {
+  color: #4c1d95;
+}

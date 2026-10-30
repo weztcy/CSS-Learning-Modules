@@ -1,0 +1,27 @@
+/* ==========================================================================
+   178_grid_auto_fill.css
+   Materi: Kata Kunci 'auto-fill'
+   ========================================================================== */
+
+.auto-fill-grid {
+  display: grid;
+  /* Membuat slot kolom sebanyak mungkin, membiarkan slot kosong tidak terisi */
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.fill-card {
+  background-color: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #92400e;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}

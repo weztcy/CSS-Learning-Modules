@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>139 - Stacking Context</title>
+  <link rel="stylesheet" href="139_stacking_context.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #fafafa; padding: 20px; }</style>
+</head>
+<body>
+  <h3>Isolasi Stacking Context</h3>
+  <div class="context-parent-1">
+    Induk 1 (z-index: 1)
+    <div class="child-super-z">Anak dengan z-index: 999999 (Terkurung di Induk 1)</div>
+  </div>
+  <div class="context-parent-2">
+    Induk 2 (z-index: 2) — Menang mutlak terhadap seluruh keturunan Induk 1!
+  </div>
+</body>
+</html>

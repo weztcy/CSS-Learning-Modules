@@ -1,0 +1,23 @@
+/* ==========================================================================
+   110_background_clip_origin.css
+   Materi: 'background-clip' dan 'background-origin'
+   ========================================================================== */
+
+.gradient-text-headline {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 500px;
+
+  /* Menetapkan gradasi warna */
+  background-image: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6);
+
+  /* Memotong background agar hanya muncul DI DALAM bentuk karakter teks */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Membuat warna teks menjadi transparan agar gradasi latar terlihat */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

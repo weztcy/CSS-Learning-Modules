@@ -1,0 +1,18 @@
+/* ==========================================================================
+   130_visibility_property.css
+   Materi: Properti 'visibility: hidden' (Ruang Tetap Tersisa)
+   ========================================================================== */
+
+.ghost-item {
+  /* Konten tidak terlihat, namun ruang fisiknya TETAP DIPERTAHANKAN */
+  visibility: hidden;
+  height: 50px;
+}
+
+.visible-box {
+  background-color: #ecfdf5;
+  border: 1px solid #10b981;
+  color: #065f46;
+  padding: 14px;
+  border-radius: 6px;
+}

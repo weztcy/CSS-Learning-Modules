@@ -1,0 +1,22 @@
+/* ==========================================================================
+   191_responsive_typography.css
+   Materi: Responsive Typography dengan Media Queries
+   ========================================================================== */
+
+.hero-headline {
+  /* Skala mobile default: 22px */
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: #0f172a;
+  text-align: center;
+  line-height: 1.3;
+  margin: 30px auto 10px;
+  max-width: 500px;
+}
+
+/* Skala layar desktop (&ge; 600px): naik ke 36px */
+@media (min-width: 600px) {
+  .hero-headline {
+    font-size: 2.25rem;
+  }
+}

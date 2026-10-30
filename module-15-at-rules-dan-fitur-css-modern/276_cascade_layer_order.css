@@ -1,0 +1,25 @@
+/* ==========================================================================
+   276_cascade_layer_order.css
+   Materi: Deklarasi Urutan Prioritas '@layer'
+   ========================================================================== */
+
+/* Menetapkan urutan prioritas: reset < components < utilities */
+@layer reset, components, utilities;
+
+@layer components {
+  .order-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+  }
+}
+
+@layer utilities {
+  /* Layer utilities mengalahkan components */
+  .bg-emerald {
+    background-color: #059669;
+  }
+}

@@ -1,0 +1,29 @@
+/* ==========================================================================
+   47_revert_layer.css
+   Materi: Keyword 'revert-layer'
+   ========================================================================== */
+
+@layer base, theme, custom;
+
+@layer base {
+  .layer-box {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #eff6ff;
+    color: #1e40af;
+  }
+}
+
+@layer theme {
+  .layer-box {
+    color: #15803d; /* Hijau pada layer theme */
+  }
+}
+
+@layer custom {
+  .layer-box {
+    /* Revert-layer membatalkan aturan layer custom dan mengambil nilai layer theme */
+    color: revert-layer;
+    border: 2px solid #93c5fd;
+  }
+}

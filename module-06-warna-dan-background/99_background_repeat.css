@@ -1,0 +1,20 @@
+/* ==========================================================================
+   99_background_repeat.css
+   Materi: Properti 'background-repeat'
+   ========================================================================== */
+
+.no-repeat-card {
+  background-color: #f0fdf4;
+  /* Pola SVG lingkaran */
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='16' fill='%2386efac' opacity='0.5'/%3E%3C/svg%3E");
+  
+  /* Mencegah gambar berulang di seluruh area */
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+
+  border: 1px solid #86efac;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}

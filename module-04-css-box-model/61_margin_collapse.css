@@ -1,0 +1,21 @@
+/* ==========================================================================
+   61_margin_collapse.css
+   Materi: Margin Collapsing (Peleburan Margin Vertikal)
+   ========================================================================== */
+
+.box-top {
+  background-color: #dbeafe;
+  border: 2px solid #3b82f6;
+  padding: 16px;
+  margin-bottom: 30px; /* Margin bawah 30px */
+  border-radius: 6px;
+}
+
+.box-bottom {
+  background-color: #fce7f3;
+  border: 2px solid #ec4899;
+  padding: 16px;
+  margin-top: 20px; /* Margin atas 20px */
+  border-radius: 6px;
+  /* Jarak aktual antara kedua kotak adalah MAX(30px, 20px) = 30px, BUKAN 50px! */
+}

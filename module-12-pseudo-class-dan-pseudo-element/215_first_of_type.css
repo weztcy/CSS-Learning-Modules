@@ -1,0 +1,21 @@
+/* ==========================================================================
+   215_first_of_type.css
+   Materi: Pseudo-class ':first-of-type'
+   ========================================================================== */
+
+.journal-box {
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+/* Paragraf pertama dari tipe tag <p> yang muncul di dalam wadah */
+.journal-box p:first-of-type {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+  line-height: 1.6;
+}

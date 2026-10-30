@@ -1,0 +1,17 @@
+/* ==========================================================================
+   59_max_height.css
+   Materi: Properti 'max-height' dan Scrollable Box
+   ========================================================================== */
+
+.scrollable-log {
+  max-height: 130px; /* Dibatasi maksimal 130px */
+  overflow-y: auto;   /* Scrollbar aktif bila isi meluap */
+  background-color: #0f172a;
+  color: #38bdf8;
+  padding: 14px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 13px;
+  max-width: 500px;
+  margin: 20px auto;
+}

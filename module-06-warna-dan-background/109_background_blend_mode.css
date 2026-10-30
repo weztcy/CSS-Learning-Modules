@@ -1,0 +1,18 @@
+/* ==========================================================================
+   109_background_blend_mode.css
+   Materi: Properti 'background-blend-mode'
+   ========================================================================== */
+
+.blend-mode-card {
+  background-color: #7c3aed; /* Warna ungu */
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40 L40 0 H20 L0 20 M40 40 V20 L20 40' fill='%2367e8f9'/%3E%3C/svg%3E");
+  
+  /* Mencampurkan warna background dengan gambar */
+  background-blend-mode: multiply;
+
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 480px;
+  margin: 30px auto;
+}

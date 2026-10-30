@@ -1,0 +1,30 @@
+/* ==========================================================================
+   204_container_queries.css
+   Materi: Container Queries (@container)
+   ========================================================================== */
+
+/* 1. Tetapkan elemen induk sebagai container konteks ukuran */
+.cq-parent {
+  container-type: inline-size;
+  container-name: card-container;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.cq-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+/* 2. Komponen merespons lebar kontainernya sendiri, BUKAN viewport browser! */
+@container card-container (min-width: 360px) {
+  .cq-card {
+    flex-direction: row;
+    align-items: center;
+  }
+}

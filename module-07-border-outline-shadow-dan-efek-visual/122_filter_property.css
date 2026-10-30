@@ -1,0 +1,17 @@
+/* ==========================================================================
+   122_filter_property.css
+   Materi: Properti 'filter' Grafis
+   ========================================================================== */
+
+.filter-badge {
+  display: inline-block;
+  background-color: #f59e0b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* Filter drop-shadow mengikuti siluet bentuk elemen transparan */
+  filter: drop-shadow(0 10px 8px rgba(245, 158, 11, 0.4));
+}

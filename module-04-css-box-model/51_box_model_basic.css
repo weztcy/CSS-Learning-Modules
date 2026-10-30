@@ -1,0 +1,24 @@
+/* ==========================================================================
+   51_box_model_basic.css
+   Materi: Anatomi Dasar CSS Box Model
+   ========================================================================== */
+
+.box-model-demo {
+  /* 1. Content: dimensi aktual ruang isi */
+  width: 320px;
+  background-color: #bfdbfe; /* Biru muda: area konten */
+
+  /* 2. Padding: ruang antara konten dan border */
+  padding: 20px;
+
+  /* 3. Border: garis batas pembungkus padding & konten */
+  border: 4px solid #1e40af;
+
+  /* 4. Margin: ruang kosong di luar border yang memisahkan dari elemen lain */
+  margin: 30px auto;
+
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: #1e3a8a;
+}

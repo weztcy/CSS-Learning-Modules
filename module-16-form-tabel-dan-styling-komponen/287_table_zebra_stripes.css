@@ -1,0 +1,46 @@
+/* ==========================================================================
+   287_table_zebra_stripes.css
+   Materi: Zebra Striping dan Hover Highlight pada Tabel
+   ========================================================================== */
+
+.zebra-table-box {
+  max-width: 620px;
+  margin: 30px auto;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.zebra-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.zebra-table th {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.zebra-table td {
+  padding: 11px 16px;
+  color: #334155;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Pola belang: Baris bernomor genap (even) diberi warna latar berbeda */
+.zebra-table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* Efek sorotan (hover) ketika pointer berada di atas baris tabel */
+.zebra-table tbody tr:hover {
+  background-color: #e0f2fe;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}

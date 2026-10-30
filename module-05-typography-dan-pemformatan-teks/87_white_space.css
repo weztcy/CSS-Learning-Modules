@@ -1,0 +1,17 @@
+/* ==========================================================================
+   87_white_space.css
+   Materi: Properti 'white-space'
+   ========================================================================== */
+
+.preformatted-box {
+  /* Mempertahankan seluruh spasi ganda dan baris baru persis seperti di HTML */
+  white-space: pre;
+  font-family: 'Courier New', monospace;
+  background-color: #1e293b;
+  color: #38bdf8;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  max-width: 480px;
+  margin: 20px auto;
+}

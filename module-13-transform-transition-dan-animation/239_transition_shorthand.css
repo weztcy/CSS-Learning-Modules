@@ -1,0 +1,23 @@
+/* ==========================================================================
+   239_transition_shorthand.css
+   Materi: Shorthand 'transition'
+   ========================================================================== */
+
+.shorthand-transition-card {
+  /* property duration timing-function */
+  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+  cursor: pointer;
+  text-align: center;
+}
+
+.shorthand-transition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.1);
+}

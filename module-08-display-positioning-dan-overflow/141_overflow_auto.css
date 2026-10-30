@@ -1,0 +1,20 @@
+/* ==========================================================================
+   141_overflow_auto.css
+   Materi: 'overflow: auto' (Scrollbar Adaptif Cerdas)
+   ========================================================================== */
+
+.auto-scroll-box {
+  max-height: 120px;
+  
+  /* Scrollbar HANYA muncul jika konten meluap */
+  overflow: auto;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+  color: #334155;
+  line-height: 1.6;
+}

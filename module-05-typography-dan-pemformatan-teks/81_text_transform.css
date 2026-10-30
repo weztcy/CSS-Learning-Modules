@@ -1,0 +1,24 @@
+/* ==========================================================================
+   81_text_transform.css
+   Materi: Properti 'text-transform'
+   ========================================================================== */
+
+.transform-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f3e8ff;
+  color: #7e22ce;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.transform-capitalize {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+}

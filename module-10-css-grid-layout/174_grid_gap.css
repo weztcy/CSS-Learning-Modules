@@ -1,0 +1,28 @@
+/* ==========================================================================
+   174_grid_gap.css
+   Materi: Properti 'gap' pada Grid (row-gap & column-gap)
+   ========================================================================== */
+
+.gap-showcase-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Baris berjarak 20px, Kolom berjarak 10px */
+  gap: 20px 10px;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.gap-card {
+  background-color: #f3e8ff;
+  border: 1px solid #c084fc;
+  color: #6b21a8;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}

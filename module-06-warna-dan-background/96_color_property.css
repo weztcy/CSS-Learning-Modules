@@ -1,0 +1,17 @@
+/* ==========================================================================
+   96_color_property.css
+   Materi: Properti 'color' dan Keyword 'currentColor'
+   ========================================================================== */
+
+.dynamic-btn {
+  color: #7c3aed; /* Menetapkan warna teks utama */
+  background-color: transparent;
+
+  /* 'currentColor' secara otomatis menyerap nilai dari properti color di atas */
+  border: 2px solid currentColor;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+}

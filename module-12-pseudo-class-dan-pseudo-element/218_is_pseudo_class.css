@@ -1,0 +1,21 @@
+/* ==========================================================================
+   218_is_pseudo_class.css
+   Materi: Pseudo-class ':is()' (Penyederhanaan Selector)
+   ========================================================================== */
+
+/* Menargetkan h3 yang berada di dalam header, section, ATAU footer */
+:is(header, section, footer) h3 {
+  color: #1d4ed8;
+  border-bottom: 2px solid #93c5fd;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+.is-container {
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}

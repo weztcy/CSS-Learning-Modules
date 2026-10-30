@@ -1,0 +1,24 @@
+/* ==========================================================================
+   213_nth_child.css
+   Materi: Pseudo-class ':nth-child()' (Pola Zebra Striping)
+   ========================================================================== */
+
+.zebra-list {
+  list-style: none;
+  padding: 0;
+  max-width: 460px;
+  margin: 30px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.zebra-list li {
+  padding: 10px 16px;
+  background-color: #ffffff;
+}
+
+/* Setiap item genap (ke-2, ke-4, ke-6) diberi warna latar berbeda */
+.zebra-list li:nth-child(even) {
+  background-color: #f1f5f9;
+}

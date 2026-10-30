@@ -1,0 +1,31 @@
+/* ==========================================================================
+   16_universal_selector.css
+   Materi: Universal Selector (*)
+   ========================================================================== */
+
+/* Universal selector menargetkan SETIAP elemen HTML pada halaman */
+* {
+  /* Mengatur model box sizing agar padding dan border dihitung di dalam lebar elemen */
+  box-sizing: border-box;
+
+  /* Menghilangkan margin bawaan yang tidak terduga dari peramban */
+  margin: 0;
+
+  /* Menghilangkan padding bawaan peramban */
+  padding: 0;
+}
+
+/* Selector khusus kontainer demo */
+.demo-card {
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.demo-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+/* ==========================================================================
+   101_background_size.css
+   Materi: Properti 'background-size' (cover & contain)
+   ========================================================================== */
+
+.cover-banner {
+  height: 180px;
+  max-width: 520px;
+  margin: 30px auto;
+  border-radius: 10px;
+
+  background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)),
+                    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='50,0 100,50 50,100 0,50' fill='%232563eb'/%3E%3C/svg%3E");
+  
+  /* Gambar menutupi 100% luas wadah */
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}

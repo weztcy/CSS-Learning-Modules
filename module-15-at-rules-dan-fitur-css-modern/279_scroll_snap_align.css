@@ -1,0 +1,31 @@
+/* ==========================================================================
+   279_scroll_snap_align.css
+   Materi: 'scroll-snap-align: center'
+   ========================================================================== */
+
+.snap-center-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.snap-center-item {
+  /* Mengunci perhentian persis di TENGAH kontainer */
+  scroll-snap-align: center;
+  flex: 0 0 70%;
+  height: 100px;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+/* ==========================================================================
+   33_multiple_class_selectors.css
+   Materi: Multiple Class Selectors (.classA.classB)
+   ========================================================================== */
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  background-color: #e2e8f0;
+  color: #475569;
+  margin-right: 6px;
+}
+
+/* Selector ini HANYA aktif jika elemen memiliki KEDUA kelas: .badge DAN .danger */
+.badge.danger {
+  background-color: #fee2e2;
+  color: #dc2626;
+  font-weight: bold;
+  border: 1px solid #f87171;
+}
+
+/* Selector untuk kombinasi .badge DAN .success */
+.badge.success {
+  background-color: #dcfce7;
+  color: #15803d;
+  font-weight: bold;
+  border: 1px solid #86efac;
+}

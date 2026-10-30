@@ -1,0 +1,25 @@
+/* ==========================================================================
+   32_selector_combinations.css
+   Materi: Kombinasi Selector (Tag + Class + Attribute)
+   ========================================================================== */
+
+/* Elemen <a> yang MEMILIKI kelas .nav-link DAN atribut data-role="admin" */
+a.nav-link[data-role="admin"] {
+  background-color: #7c3aed;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Elemen tombol dengan kelas .btn yang berstatus disabled */
+button.btn[disabled] {
+  background-color: #cbd5e1;
+  color: #94a3b8;
+  cursor: not-allowed;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+}

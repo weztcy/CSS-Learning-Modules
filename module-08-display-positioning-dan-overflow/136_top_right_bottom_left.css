@@ -1,0 +1,31 @@
+/* ==========================================================================
+   136_top_right_bottom_left.css
+   Materi: Koordinat Fisik (top, right, bottom, left)
+   ========================================================================== */
+
+.overlay-parent {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  height: 180px;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.full-overlay {
+  position: absolute;
+  /* Merentang ke seluruh 4 penjuru */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  background-color: rgba(15, 23, 42, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

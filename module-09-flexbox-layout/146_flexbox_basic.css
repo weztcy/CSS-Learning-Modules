@@ -1,0 +1,25 @@
+/* ==========================================================================
+   146_flexbox_basic.css
+   Materi: Konsep Dasar Flexbox Layout
+   ========================================================================== */
+
+/* Kontainer Flexbox */
+.flex-intro-container {
+  display: flex; /* Mengaktifkan konteks pemformatan flex */
+  background-color: #f1f5f9;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+/* Item di dalam flex container otomatis menjadi Flex Items */
+.flex-item {
+  background-color: #3b82f6;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 6px;
+  margin-right: 12px;
+  font-weight: 600;
+}

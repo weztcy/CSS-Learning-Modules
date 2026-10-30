@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>284 - Checkbox Radio Styling</title>
+  <link rel="stylesheet" href="284_checkbox_radio_styling.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 20px; }</style>
+</head>
+<body>
+  <div class="selection-group">
+    <h3 style="margin-top:0; color:#0f172a;">Pilihan Opsi</h3>
+    
+    <p style="font-size:12px; font-weight:700; color:#64748b; margin-bottom:8px;">A. METODE ACCENT-COLOR</p>
+    <label class="accent-item">
+      <input type="checkbox" checked>
+      <span>Langganan newsletter mingguan</span>
+    </label>
+    <label class="accent-item">
+      <input type="radio" name="plan" checked>
+      <span>Paket Personal</span>
+    </label>
+    <label class="accent-item">
+      <input type="radio" name="plan">
+      <span>Paket Tim Bisnis</span>
+    </label>
+
+    <hr style="border:0; border-top:1px solid #e2e8f0; margin:16px 0;">
+
+    <p style="font-size:12px; font-weight:700; color:#64748b; margin-bottom:8px;">B. METODE KUSTOM PSEUDO-ELEMENT</p>
+    <label class="custom-control">
+      Setujui syarat dan ketentuan
+      <input type="checkbox" checked>
+      <span class="custom-box"></span>
+    </label>
+    <label class="custom-control">
+      Izinkan notifikasi desktop
+      <input type="checkbox">
+      <span class="custom-box"></span>
+    </label>
+  </div>
+</body>
+</html>

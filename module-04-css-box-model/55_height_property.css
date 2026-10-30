@@ -1,0 +1,19 @@
+/* ==========================================================================
+   55_height_property.css
+   Materi: Properti 'height'
+   ========================================================================== */
+
+.hero-box {
+  width: 100%;
+  max-width: 500px;
+  height: 180px; /* Tinggi pasti vertikal */
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+}

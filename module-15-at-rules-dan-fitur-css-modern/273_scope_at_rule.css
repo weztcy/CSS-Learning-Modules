@@ -1,0 +1,26 @@
+/* ==========================================================================
+   273_scope_at_rule.css
+   Materi: At-rule '@scope' (Isolasi Jangkauan Komponen)
+   ========================================================================== */
+
+@scope (.scoped-panel) {
+  /* Aturan ini HANYA berlaku di dalam .scoped-panel */
+  h4 {
+    color: #7c3aed;
+    margin-top: 0;
+  }
+  p {
+    color: #475569;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+}
+
+.scoped-panel {
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 460px;
+  margin: 30px auto;
+}

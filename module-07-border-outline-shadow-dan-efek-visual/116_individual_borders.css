@@ -1,0 +1,16 @@
+/* ==========================================================================
+   116_individual_borders.css
+   Materi: Pengaturan Border Individual Sisi
+   ========================================================================== */
+
+.callout-box {
+  /* HANYA memberikan garis tebal di sisi kiri */
+  border-left: 5px solid #0284c7;
+
+  background-color: #f0f9ff;
+  color: #0369a1;
+  padding: 18px 24px;
+  border-radius: 0 8px 8px 0;
+  max-width: 480px;
+  margin: 30px auto;
+}

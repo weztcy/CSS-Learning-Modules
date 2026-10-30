@@ -1,0 +1,25 @@
+/* ==========================================================================
+   35_selector_list_patterns.css
+   Materi: Pola Penulisan Selector List (Best Practice)
+   ========================================================================== */
+
+/* Satu baris per selector memudahkan pembacaan dan analisis Git diff */
+input.form-control,
+textarea.form-control,
+select.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus {
+  border-color: #2563eb;
+  outline: 2px solid #93c5fd;
+}

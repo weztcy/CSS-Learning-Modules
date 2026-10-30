@@ -1,0 +1,22 @@
+/* ==========================================================================
+   247_css_variable_declaration.css
+   Materi: Ragam Deklarasi Nilai Variabel CSS
+   ========================================================================== */
+
+.token-box {
+  /* Beragam tipe nilai disimpan dalam variabel: */
+  --card-radius: 12px;
+  --card-padding: 20px;
+  --border-style: 2px dashed #059669;
+  --brand-green: #10b981;
+
+  border-radius: var(--card-radius);
+  padding: var(--card-padding);
+  border: var(--border-style);
+  background-color: #ecfdf5;
+  color: var(--brand-green);
+  max-width: 440px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+}

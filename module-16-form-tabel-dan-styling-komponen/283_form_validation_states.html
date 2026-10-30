@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>283 - Form Validation States</title>
+  <link rel="stylesheet" href="283_form_validation_states.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 20px; }</style>
+</head>
+<body>
+  <div class="val-card">
+    <h3 style="margin-top:0; color:#0f172a;">Validasi Visual Form</h3>
+    <div class="val-field">
+      <label class="val-label" for="email">Alamat Email (Format wajib)</label>
+      <input class="val-input" id="email" type="email" value="invalid-email" required>
+      <span class="hint-text hint-invalid">Format email tidak valid (harus ada @ dan domain).</span>
+      <span class="hint-text hint-valid">Format email valid dan siap dikirim.</span>
+    </div>
+    <div class="val-field">
+      <label class="val-label" for="pass">Kata Sandi (Minimal 6 karakter)</label>
+      <input class="val-input" id="pass" type="password" minlength="6" value="rahasia123" required>
+      <span class="hint-text hint-invalid">Sandi terlalu pendek (min 6 karakter).</span>
+      <span class="hint-text hint-valid">Panjang sandi sudah memenuhi syarat!</span>
+    </div>
+  </div>
+</body>
+</html>

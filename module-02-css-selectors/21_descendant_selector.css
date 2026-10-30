@@ -1,0 +1,25 @@
+/* ==========================================================================
+   21_descendant_selector.css
+   Materi: Descendant Selector (Pemisah Spasi)
+   ========================================================================== */
+
+.article-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 550px;
+  margin: 20px auto;
+}
+
+/* Menargetkan SELURUH tag <p> yang berada di dalam .article-card (anak maupun cucu) */
+.article-card p {
+  color: #475569;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* Menargetkan tag <strong> yang merupakan keturunan dari .article-card */
+.article-card strong {
+  color: #0f172a;
+}

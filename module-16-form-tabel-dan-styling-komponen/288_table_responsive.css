@@ -1,0 +1,44 @@
+/* ==========================================================================
+   288_table_responsive.css
+   Materi: Teknik Tabel Responsif
+   ========================================================================== */
+
+/* Kontainer pembungkus scroll horizontal */
+.table-responsive-container {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  overflow-x: auto; /* Mengizinkan geser horizontal jika tabel melebihi wadah */
+  -webkit-overflow-scrolling: touch;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px; /* Lebar minimum untuk menjaga keterbacaan kolom */
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+.responsive-table th {
+  background-color: #f8fafc;
+  font-weight: 600;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+/* Indikator geser untuk pengguna mobile */
+.scroll-notice {
+  text-align: center;
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 8px;
+}

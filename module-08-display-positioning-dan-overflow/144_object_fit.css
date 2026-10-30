@@ -1,0 +1,18 @@
+/* ==========================================================================
+   144_object_fit.css
+   Materi: Properti 'object-fit: cover'
+   ========================================================================== */
+
+.avatar-fit-cover {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  border: 2px solid #3b82f6;
+
+  /* Menjaga rasio aspek gambar tetap asli, memotong kelebihan di tepi */
+  object-fit: cover;
+
+  display: block;
+  margin: 20px auto;
+  background-color: #dbeafe;
+}

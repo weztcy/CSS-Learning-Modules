@@ -1,0 +1,28 @@
+/* ==========================================================================
+   150_flex_flow.css
+   Materi: Shorthand 'flex-flow' (direction + wrap)
+   ========================================================================== */
+
+.gallery-flow {
+  display: flex;
+  flex-flow: row wrap; /* Arah horizontal + izinkan pembungkusan */
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.gallery-item {
+  width: 100px;
+  height: 70px;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+/* ==========================================================================
+   50_cascade_conflict_resolution.css
+   Materi: Simulasi Lengkap Resolusi Konflik CSS
+   ========================================================================== */
+
+/* Tahap 1: Aturan umum */
+.status-card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Tahap 2: Konflik spesifisitas - kelas ganda */
+.status-card .status-indicator {
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* Tahap 3: Menang karena memiliki kelas spesifik state aktif */
+.status-card .status-indicator.active {
+  color: #059669;
+  font-weight: bold;
+  background-color: #d1fae5;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}

@@ -1,0 +1,35 @@
+/* ==========================================================================
+   171_grid_column.css
+   Materi: Properti 'grid-column' (Perentangan Kolom)
+   ========================================================================== */
+
+.span-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.span-full-width {
+  /* Merentang melintasi 2 kolom sekaligus */
+  grid-column: 1 / -1; /* Dari garis awal hingga garis paling akhir */
+  background-color: #2563eb;
+  color: white;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.normal-col {
+  background-color: #f1f5f9;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  color: #334155;
+}

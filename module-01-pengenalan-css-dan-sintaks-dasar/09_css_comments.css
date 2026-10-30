@@ -1,0 +1,28 @@
+/* ==========================================================================
+   09_css_comments.css
+   Materi: Komentar dalam CSS (Sintaks dan Praktik Terbaik Dokumentasi)
+   ========================================================================== */
+
+/* Komentar Single-line: menjelaskan target seleksi */
+.comment-card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+
+  /* Properti berikut dinonaktifkan sementara untuk pengujian:
+     background-color: #fef3c7;
+  */
+}
+
+/*
+ * Komentar Multi-line Deskriptif:
+ * Blok berikut mengatur judul kartu dengan aksen warna khusus
+ * agar pembaca langsung memahami poin utama.
+ */
+.comment-card h3 {
+  margin-top: 0;
+  color: #0369a1; /* Komentar inline: warna biru samudera */
+}

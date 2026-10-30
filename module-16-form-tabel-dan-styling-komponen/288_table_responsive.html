@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>288 - Responsive Table</title>
+  <link rel="stylesheet" href="288_table_responsive.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 20px; }</style>
+</head>
+<body>
+  <div style="max-width:600px; margin:auto;">
+    <h3 style="margin-top:0; color:#0f172a;">Tabel Data Responsif</h3>
+    <div class="table-responsive-container">
+      <table class="responsive-table">
+        <thead>
+          <tr>
+            <th>No Transaksi</th>
+            <th>Pelanggan</th>
+            <th>Tanggal</th>
+            <th>Metode Pembayaran</th>
+            <th>Total Tagihan</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TRX-8801</td>
+            <td>Rian Hidayat</td>
+            <td>17 Okt 2026</td>
+            <td>Transfer Bank</td>
+            <td>Rp 1.250.000</td>
+            <td><span style="color:#16a34a; font-weight:600;">Selesai</span></td>
+          </tr>
+          <tr>
+            <td>TRX-8802</td>
+            <td>Dewi Anggraini</td>
+            <td>17 Okt 2026</td>
+            <td>E-Wallet QRIS</td>
+            <td>Rp 340.000</td>
+            <td><span style="color:#eab308; font-weight:600;">Menunggu</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="scroll-notice">&#x2194; Geser ke samping bila tabel terpotong di layar ponsel.</p>
+  </div>
+</body>
+</html>

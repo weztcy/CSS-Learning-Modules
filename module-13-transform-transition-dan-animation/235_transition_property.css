@@ -1,0 +1,23 @@
+/* ==========================================================================
+   235_transition_property.css
+   Materi: Properti 'transition-property'
+   ========================================================================== */
+
+.targeted-transition-btn {
+  /* Secara eksplisit menargetkan hanya properti tertentu untuk transisi */
+  transition-property: background-color, transform;
+  transition-duration: 0.3s;
+
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.targeted-transition-btn:hover {
+  background-color: #0369a1;
+  transform: translateY(-3px);
+}

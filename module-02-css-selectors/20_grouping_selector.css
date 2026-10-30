@@ -1,0 +1,17 @@
+/* ==========================================================================
+   20_grouping_selector.css
+   Materi: Grouping Selector (Tanda Koma ',')
+   ========================================================================== */
+
+/* Ketiga heading ini berbagi deklarasi jenis huruf, margin, dan bobot font yang sama */
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #1e3a8a;
+  margin-top: 0;
+  letter-spacing: -0.5px;
+}
+
+/* Kemudian masing-masing dapat memiliki aturan spesifik tambahan */
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 18px; }

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   224_after_pseudo_element.css
+   Materi: Pseudo-element '::after'
+   ========================================================================== */
+
+.arrow-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+/* Menyisipkan panah di akhir teks tautan */
+.arrow-link::after {
+  content: " 92"; /* Kode Unicode untuk panah kanan (92) */
+  display: inline-block;
+  margin-left: 6px;
+  transition: transform 0.2s;
+}
+
+.arrow-link:hover::after {
+  transform: translateX(4px); /* Efek panah meluncur saat hover */
+}

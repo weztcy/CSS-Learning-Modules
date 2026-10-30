@@ -1,0 +1,50 @@
+/* ==========================================================================
+   286_table_styling.css
+   Materi: Styling Tabel Data Profesional
+   ========================================================================== */
+
+.table-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse; /* Menyatukan border ganda sel menjadi tunggal */
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Header Tabel */
+.data-table th {
+  background-color: #f1f5f9;
+  color: #334155;
+  font-weight: 600;
+  padding: 14px 18px;
+  border-bottom: 2px solid #cbd5e1;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+/* Sel Data Tabel */
+.data-table td {
+  padding: 12px 18px;
+  color: #475569;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Perataan angka ke sebelah kanan */
+.data-table .text-right {
+  text-align: right;
+}
+
+/* Hilangkan border bawah pada baris terakhir */
+.data-table tr:last-child td {
+  border-bottom: none;
+}

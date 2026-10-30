@@ -1,0 +1,28 @@
+/* ==========================================================================
+   211_first_child.css
+   Materi: Pseudo-class ':first-child'
+   ========================================================================== */
+
+.item-list-box {
+  list-style: none;
+  padding: 0;
+  max-width: 450px;
+  margin: 30px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item-list-box li {
+  padding: 12px 18px;
+  border-top: 1px solid #e2e8f0;
+  background: white;
+}
+
+/* Anak pertama mutlak di dalam daftar */
+.item-list-box li:first-child {
+  border-top: none; /* Hapus garis atas */
+  background-color: #eff6ff;
+  font-weight: 700;
+  color: #1d4ed8;
+}

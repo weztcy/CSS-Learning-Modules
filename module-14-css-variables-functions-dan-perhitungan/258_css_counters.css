@@ -1,0 +1,30 @@
+/* ==========================================================================
+   258_css_counters.css
+   Materi: Konsep Dasar CSS Counters
+   ========================================================================== */
+
+.numbered-guide {
+  /* Inisialisasi pencacah 'modulStep' dengan nilai awal 0 */
+  counter-reset: modulStep;
+  list-style: none;
+  padding: 0;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.numbered-guide li {
+  /* Tambahkan 1 setiap kali menemukan elemen <li> */
+  counter-increment: modulStep;
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Tampilkan angka counter menggunakan pseudo-element ::before */
+.numbered-guide li::before {
+  content: "Modul " counter(modulStep) ": ";
+  font-weight: bold;
+  color: #2563eb;
+}

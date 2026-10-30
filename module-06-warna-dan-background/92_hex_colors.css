@@ -1,0 +1,24 @@
+/* ==========================================================================
+   92_hex_colors.css
+   Materi: Format Heksadesimal (#RRGGBB & #RRGGBBAA)
+   ========================================================================== */
+
+.hex-full {
+  /* Heksadesimal 6-digit: Merah=3B, Hijau=82, Biru=F6 */
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.hex-alpha {
+  /* Heksadesimal 8-digit: #3b82f6 dengan alpha 80 (~50% opacity) */
+  background-color: #3b82f680;
+  color: #1e3a8a;
+  border: 1px solid #3b82f6;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+/* ==========================================================================
+   168_grid_template_columns.css
+   Materi: Properti 'grid-template-columns'
+   ========================================================================== */
+
+.three-column-grid {
+  display: grid;
+  /* Kolom 1: 130px fixed | Kolom 2: 2 bagian | Kolom 3: 1 bagian */
+  grid-template-columns: 130px 2fr 1fr;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 580px;
+  margin: 30px auto;
+}
+
+.col-demo-item {
+  background-color: #f1f5f9;
+  border: 1px solid #94a3b8;
+  padding: 16px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  color: #334155;
+}

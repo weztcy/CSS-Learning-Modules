@@ -1,0 +1,21 @@
+/* ==========================================================================
+   76_font_stretch.css
+   Materi: Properti 'font-stretch'
+   ========================================================================== */
+
+.condensed-text {
+  font-family: Arial, sans-serif;
+  font-stretch: condensed;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.expanded-text {
+  font-family: Arial, sans-serif;
+  font-stretch: expanded;
+  font-size: 20px;
+  font-weight: 600;
+  color: #065f46;
+}

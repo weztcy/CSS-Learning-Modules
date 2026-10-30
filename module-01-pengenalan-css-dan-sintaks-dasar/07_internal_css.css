@@ -1,0 +1,15 @@
+/* ==========================================================================
+   07_internal_css.css
+   Materi: Konsep dan Karakteristik Internal CSS
+   ========================================================================== */
+
+/* File ini merepresentasikan padanan aturan eksternal untuk studi banding internal CSS */
+.badge-info {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}

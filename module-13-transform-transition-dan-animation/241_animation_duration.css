@@ -1,0 +1,28 @@
+/* ==========================================================================
+   241_animation_duration.css
+   Materi: Properti 'animation-duration'
+   ========================================================================== */
+
+@keyframes slideBar {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.progress-track-anim {
+  width: 100%;
+  max-width: 420px;
+  height: 14px;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+.progress-bar-anim {
+  height: 100%;
+  background-color: #10b981;
+  animation-name: slideBar;
+  /* Menyelesaikan animasi penuh dalam 1.5 detik */
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   199_hover_capability_queries.css
+   Materi: Query Kapabilitas Hover (@media (hover: hover))
+   ========================================================================== */
+
+.hover-aware-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Efek hover HANYA diaktifkan pada perangkat yang mendukung hover (mouse) */
+@media (hover: hover) {
+  .hover-aware-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+  }
+}

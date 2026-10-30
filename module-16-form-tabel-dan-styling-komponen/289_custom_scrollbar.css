@@ -1,0 +1,39 @@
+/* ==========================================================================
+   289_custom_scrollbar.css
+   Materi: Kustomisasi Bilah Gulir (Custom Scrollbar)
+   ========================================================================== */
+
+/* Kontainer dengan konten meluap */
+.scroll-container {
+  max-width: 460px;
+  height: 220px;
+  margin: 30px auto;
+  padding: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  overflow-y: scroll;
+
+  /* 1. Sintaks Standar W3C (Firefox & Peramban Modern) */
+  scrollbar-width: thin;
+  scrollbar-color: #6366f1 #f1f5f9; /* [warna-thumb] [warna-track] */
+}
+
+/* 2. Sintaks Mesin WebKit (Chrome, Edge, Safari) */
+.scroll-container::-webkit-scrollbar {
+  width: 8px; /* Lebar vertikal scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #f1f5f9;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #6366f1;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #4f46e5;
+}

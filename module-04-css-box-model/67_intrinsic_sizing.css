@@ -1,0 +1,23 @@
+/* ==========================================================================
+   67_intrinsic_sizing.css
+   Materi: Intrinsic vs Extrinsic Sizing
+   ========================================================================== */
+
+/* Extrinsic: ukuran dipaksakan dari luar */
+.extrinsic-box {
+  width: 280px;
+  background-color: #fee2e2;
+  border: 1px solid #f87171;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Intrinsic: ukuran membungkus konten alami menggunakan width: max-content */
+.intrinsic-box {
+  width: max-content;
+  background-color: #dbeafe;
+  border: 1px solid #60a5fa;
+  padding: 14px;
+  border-radius: 6px;
+}

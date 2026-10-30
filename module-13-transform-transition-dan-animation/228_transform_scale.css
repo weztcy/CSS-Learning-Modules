@@ -1,0 +1,17 @@
+/* ==========================================================================
+   228_transform_scale.css
+   Materi: Transformasi 'scale(faktor)'
+   ========================================================================== */
+
+.scaled-box {
+  /* Memperbesar elemen 15% dari ukuran asli */
+  transform: scale(1.15);
+
+  background-color: #10b981;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 700;
+  box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+}

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   135_position_sticky.css
+   Materi: 'position: sticky' (Menempel Saat Digulir)
+   ========================================================================== */
+
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; /* Menempel saat menyentuh tepi atas wadah */
+  
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 12px 18px;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+  z-index: 10;
+}
+
+.scroll-container {
+  height: 220px;
+  overflow-y: auto;
+  border: 1px solid #cbd5e1;
+  background: white;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}

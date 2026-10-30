@@ -1,0 +1,30 @@
+/* ==========================================================================
+   153_align_content.css
+   Materi: Properti 'align-content' (Multi-Baris Wrap)
+   ========================================================================== */
+
+.multiline-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; /* Mendistribusikan baris ke atas dan bawah */
+  height: 200px; /* Tinggi wadah berlebih */
+  
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.mini-box {
+  width: 48%;
+  background-color: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #b45309;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  box-sizing: border-box;
+}

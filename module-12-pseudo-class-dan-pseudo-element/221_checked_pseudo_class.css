@@ -1,0 +1,24 @@
+/* ==========================================================================
+   221_checked_pseudo_class.css
+   Materi: Pseudo-class ':checked'
+   ========================================================================== */
+
+.check-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 14px 18px;
+  border-radius: 8px;
+  max-width: 420px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+/* Saat checkbox dicentang, ubah teks label di sampingnya */
+input[type="checkbox"]:checked + span {
+  color: #059669;
+  font-weight: 700;
+  text-decoration: none;
+}

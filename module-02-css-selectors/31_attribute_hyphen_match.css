@@ -1,0 +1,22 @@
+/* ==========================================================================
+   31_attribute_hyphen_match.css
+   Materi: Attribute Hyphen Matching [attr|='val']
+   ========================================================================== */
+
+/* Menargetkan lang="id" atau lang="id-ID" */
+p[lang|="id"] {
+  background-color: #fff1f2;
+  border-left: 4px solid #e11d48;
+  padding: 10px 14px;
+  color: #881337;
+  border-radius: 4px;
+}
+
+/* Menargetkan lang="en" atau lang="en-US" */
+p[lang|="en"] {
+  background-color: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  padding: 10px 14px;
+  color: #1e3a8a;
+  border-radius: 4px;
+}

@@ -1,0 +1,22 @@
+/* ==========================================================================
+   207_active_pseudo_class.css
+   Materi: Pseudo-class ':active'
+   ========================================================================== */
+
+.active-tactile-btn {
+  background-color: #059669;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #047857;
+  transition: transform 0.05s, box-shadow 0.05s;
+}
+
+/* Saat tombol sedang ditekan secara aktif */
+.active-tactile-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #047857;
+}

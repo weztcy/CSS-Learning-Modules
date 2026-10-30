@@ -1,0 +1,22 @@
+/* ==========================================================================
+   38_specificity_comparison.css
+   Materi: Perbandingan Specificity Kompleks
+   ========================================================================== */
+
+/* Kombinasi 3 Class + 3 Element: Skor (0, 0, 3, 3) */
+nav.navbar ul.menu li.active a {
+  background-color: #e2e8f0;
+  color: #334155;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+/* Kombinasi 1 ID + 1 Element: Skor (0, 1, 0, 1) -> MENANG karena memiliki 1 ID */
+#main-nav a {
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}

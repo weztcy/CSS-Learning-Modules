@@ -1,0 +1,142 @@
+/* ==========================================================================
+   298_dashboard_layout_project.css
+   Proyek Praktik 3: Layout Dashboard Analitik Modern
+   ========================================================================== */
+
+/* Induk Layout Dashboard Berbasis CSS Grid */
+.dashboard-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 440px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+/* Sidebar Navigasi Samping */
+.dash-sidebar {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-brand {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #38bdf8;
+}
+
+.dash-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dash-menu-item {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dash-menu-item.active,
+.dash-menu-item:hover {
+  background-color: #1e293b;
+  color: #ffffff;
+}
+
+/* Area Konten Utama */
+.dash-main {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Atas */
+.dash-header {
+  background-color: #ffffff;
+  padding: 14px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-header-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #1e293b;
+}
+
+/* Konten Grid Metrik */
+.dash-body {
+  padding: 20px 24px;
+}
+
+.dash-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.kpi-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.kpi-title {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+}
+
+.kpi-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.kpi-trend {
+  font-size: 11px;
+  color: #10b981;
+  font-weight: 600;
+}
+
+/* Visual Bar Graph Sederhana Murni CSS */
+.dash-chart-card {
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.chart-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 90px;
+  padding-top: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bar {
+  flex: 1;
+  background-color: #3b82f6;
+  border-radius: 4px 4px 0 0;
+}

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   252_min_function.css
+   Materi: Fungsi 'min(val1, val2)'
+   ========================================================================== */
+
+.min-responsive-card {
+  /* Mengambil nilai terkecil: 90% pada layar kecil, 460px pada layar lebar */
+  width: min(90%, 460px);
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}

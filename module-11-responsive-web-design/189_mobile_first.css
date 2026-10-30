@@ -1,0 +1,42 @@
+/* ==========================================================================
+   189_mobile_first.css
+   Materi: Metodologi 'Mobile-First' Progresif
+   ========================================================================== */
+
+/* 1. Gaya Dasar: Mengutamakan kesederhanaan layar ponsel (Mobile) */
+.mobile-first-card {
+  display: flex;
+  flex-direction: column; /* Vertikal satu kolom di mobile */
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.card-img-placeholder {
+  height: 120px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* 2. Peningkatan Progresif: Mengembang di Tablet & Desktop (&ge; 480px) */
+@media (min-width: 480px) {
+  .mobile-first-card {
+    flex-direction: row; /* Berubah menjadi dua kolom horizontal */
+    align-items: center;
+    padding: 24px;
+  }
+  .card-img-placeholder {
+    width: 140px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+}

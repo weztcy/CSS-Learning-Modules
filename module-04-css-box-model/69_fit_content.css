@@ -1,0 +1,15 @@
+/* ==========================================================================
+   69_fit_content.css
+   Materi: Fungsi 'fit-content()'
+   ========================================================================== */
+
+.fit-content-box {
+  /* Membalut konten secara fleksibel, namun dibatasi maksimal 380px */
+  width: fit-content(380px);
+  background-color: #ecfdf5;
+  border: 2px solid #10b981;
+  padding: 16px;
+  border-radius: 8px;
+  color: #065f46;
+  margin: 20px auto;
+}

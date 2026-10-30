@@ -1,0 +1,50 @@
+/* ==========================================================================
+   291_css_reset.css
+   Materi: Modern CSS Reset
+   ========================================================================== */
+
+/* 1. Reset model kotak untuk seluruh elemen */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Hapus margin bawaan pada elemen struktural dan teks */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* 3. Pengaturan body standar */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  padding: 24px;
+}
+
+/* 4. Media responsif bawaan */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Wariskan font ke elemen input form dan tombol */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Kotak sampel peraga hasil reset */
+.reset-showcase-box {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 20px auto;
+}

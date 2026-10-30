@@ -1,0 +1,15 @@
+/* ==========================================================================
+   126_display_block.css
+   Materi: Karakteristik 'display: block'
+   ========================================================================== */
+
+.block-item {
+  display: block; /* Selalu berada di baris baru */
+  background-color: #dbeafe;
+  border: 1px solid #3b82f6;
+  color: #1e40af;
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}

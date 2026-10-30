@@ -1,0 +1,15 @@
+/* ==========================================================================
+   106_radial_gradient.css
+   Materi: Radial Gradient (Pendaran Melingkar)
+   ========================================================================== */
+
+.radial-glow-card {
+  /* Memancarkan lingkaran dari tengah: biru terang ke biru gelap */
+  background: radial-gradient(circle at center, #1d4ed8 0%, #0f172a 70%);
+  color: #ffffff;
+  padding: 36px;
+  border-radius: 12px;
+  max-width: 480px;
+  margin: 30px auto;
+  text-align: center;
+}

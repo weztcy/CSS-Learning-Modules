@@ -1,0 +1,26 @@
+/* ==========================================================================
+   12_css_case_sensitivity.css
+   Materi: Case Sensitivity dalam CSS
+   ========================================================================== */
+
+/* Properti dan value kata kunci CSS tidak sensitif huruf besar/kecil:
+   'COLOR' sama saja dengan 'color', namun konvensi industri SELALU huruf kecil.
+*/
+
+/* Selector kelas 'alertBox' peka terhadap huruf besar-kecil (Case Sensitive) */
+.alertBox {
+  background-color: #fff7ed;
+  border-left: 4px solid #ea580c;
+  color: #9a3412;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Kelas 'ALERTBOX' tidak akan mengenai elemen dengan class="alertBox" */
+.ALERTBOX {
+  background-color: #f3e8ff;
+  border-left: 4px solid #9333ea;
+  color: #581c87;
+  padding: 16px;
+}

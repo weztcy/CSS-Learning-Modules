@@ -1,0 +1,23 @@
+/* ==========================================================================
+   68_min_content_max_content.css
+   Materi: Kata Kunci 'min-content' dan 'max-content'
+   ========================================================================== */
+
+.min-content-box {
+  /* Menyusut hingga selebar kata terpanjang di dalam teks */
+  width: min-content;
+  background-color: #fef3c7;
+  border: 2px solid #f59e0b;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.max-content-box {
+  /* Melebar penuh tanpa mematahkan baris */
+  width: max-content;
+  background-color: #ede9fe;
+  border: 2px solid #8b5cf6;
+  padding: 12px;
+  border-radius: 6px;
+}

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   56_min_width.css
+   Materi: Properti 'min-width'
+   ========================================================================== */
+
+.min-width-btn {
+  /* Lebar minimum 140px: tombol tidak akan pernah lebih kecil dari 140px */
+  min-width: 140px;
+  padding: 10px 18px;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}

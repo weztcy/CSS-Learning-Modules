@@ -1,0 +1,18 @@
+/* ==========================================================================
+   129_display_none.css
+   Materi: 'display: none' (Penghilangan Ruang Layout)
+   ========================================================================== */
+
+.hidden-none {
+  /* Elemen lenyap dari tampilan dan ruang fisiknya kolaps (tidak disisakan) */
+  display: none;
+}
+
+.visible-item {
+  background-color: #eff6ff;
+  border: 1px solid #3b82f6;
+  color: #1e40af;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}

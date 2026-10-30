@@ -1,0 +1,21 @@
+/* ==========================================================================
+   250_var_function.css
+   Materi: Pemanggilan Fungsi 'var()'
+   ========================================================================== */
+
+.var-demo-btn {
+  --btn-bg: #4f46e5;
+  --btn-color: #ffffff;
+  --btn-radius: 9999px;
+
+  /* Memanggil nilai variabel menggunakan fungsi var() */
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  border-radius: var(--btn-radius);
+
+  border: none;
+  padding: 12px 28px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.3);
+}

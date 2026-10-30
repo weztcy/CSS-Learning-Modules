@@ -1,0 +1,30 @@
+/* ==========================================================================
+   243_animation_direction_fill_mode.css
+   Materi: 'animation-direction' dan 'animation-fill-mode'
+   ========================================================================== */
+
+@keyframes slideAndStay {
+  0% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(40px);
+    opacity: 1;
+    background-color: #059669;
+  }
+}
+
+.forwards-card {
+  animation-name: slideAndStay;
+  animation-duration: 1s;
+  /* Mengunci gaya frame terakhir (100%) saat animasi selesai */
+  animation-fill-mode: forwards;
+
+  background-color: #2563eb;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: bold;
+}

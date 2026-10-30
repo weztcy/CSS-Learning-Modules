@@ -1,0 +1,24 @@
+/* ==========================================================================
+   06_inline_css.css
+   Materi: Pemahaman dan Perbandingan Inline CSS
+   ========================================================================== */
+
+/* Kelas pembanding standar dari file eksternal */
+.external-styled-box {
+  background-color: #f1f5f9;
+  border: 2px dashed #94a3b8;
+  color: #334155;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Catatan edukatif:
+   Gaya yang ditulis di inline HTML (style="...") akan menimpa
+   nilai properti yang sama dari file eksternal ini karena specificity inline lebih tinggi.
+*/
+.demo-box {
+  background-color: #e2e8f0;
+  padding: 16px;
+  border-radius: 8px;
+}

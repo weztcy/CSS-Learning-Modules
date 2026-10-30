@@ -1,0 +1,31 @@
+/* ==========================================================================
+   185_grid_dashboard_layout.css
+   Materi: Praktik Dashboard Layout dengan CSS Grid
+   ========================================================================== */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  background-color: #f1f5f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  max-width: 540px;
+  margin: 30px auto;
+}
+
+.metric-widget {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.chart-widget {
+  grid-column: 1 / -1; /* Membentang penuh di kedua kolom */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}

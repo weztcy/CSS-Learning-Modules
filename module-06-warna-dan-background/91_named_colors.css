@@ -1,0 +1,30 @@
+/* ==========================================================================
+   91_named_colors.css
+   Materi: Named Colors Resmi W3C
+   ========================================================================== */
+
+.color-badge-crimson {
+  background-color: crimson;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.color-badge-royalblue {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.color-badge-forestgreen {
+  background-color: forestgreen;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}

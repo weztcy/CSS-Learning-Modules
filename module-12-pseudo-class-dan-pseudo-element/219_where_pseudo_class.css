@@ -1,0 +1,19 @@
+/* ==========================================================================
+   219_where_pseudo_class.css
+   Materi: Pseudo-class ':where()' (Spesifisitas Nol)
+   ========================================================================== */
+
+/* Spesifisitas selector ini adalah (0, 0, 0, 0) */
+:where(.btn-library) {
+  background-color: #94a3b8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Kelas biasa (0, 0, 1, 0) dengan sangat mudah menimpa aturan :where() di atas */
+.my-override {
+  background-color: #059669;
+}

@@ -1,0 +1,31 @@
+/* ==========================================================================
+   66_box_sizing_global.css
+   Materi: Best Practice Global Box Sizing Reset
+   ========================================================================== */
+
+/* 1. Tetapkan border-box pada elemen root dokumen */
+html {
+  box-sizing: border-box;
+}
+
+/* 2. Seluruh elemen dan pseudo-element mewarisi box-sizing tersebut */
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.two-col-layout {
+  display: flex;
+  gap: 16px;
+  max-width: 550px;
+  margin: 30px auto;
+}
+
+.col-item {
+  flex: 1;
+  background-color: #ffffff;
+  border: 2px solid #3b82f6;
+  padding: 20px;
+  border-radius: 8px;
+}

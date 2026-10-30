@@ -1,0 +1,37 @@
+/* ==========================================================================
+   05_css_properties_values.css
+   Materi: Eksplorasi Properties dan Ragam Values
+   ========================================================================== */
+
+.product-card {
+  /* Property 'width' dengan value unit piksel */
+  width: 320px;
+
+  /* Property 'background-color' dengan value kata kunci heksadesimal */
+  background-color: #ffffff;
+
+  /* Property 'border-radius' dengan value kelengkungan sudut */
+  border-radius: 12px;
+
+  /* Property 'border' shorthand dengan 3 value: ketebalan, style, warna */
+  border: 1px solid #e2e8f0;
+
+  /* Property 'padding' dengan value ruang dalam */
+  padding: 24px;
+
+  /* Property 'box-shadow' dengan value offset X, offset Y, blur, spread, warna */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.product-price {
+  /* Property 'font-weight' dengan value numerik bobot ketebalan font */
+  font-weight: 700;
+
+  /* Property 'font-size' dengan value unit rem relatif terhadap root */
+  font-size: 1.5rem;
+
+  /* Property 'color' dengan value warna hijau keberhasilan */
+  color: #15803d;
+
+  margin: 10px 0;
+}

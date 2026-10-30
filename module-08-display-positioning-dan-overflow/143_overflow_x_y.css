@@ -1,0 +1,29 @@
+/* ==========================================================================
+   143_overflow_x_y.css
+   Materi: 'overflow-x' dan 'overflow-y' Independen
+   ========================================================================== */
+
+.horizontal-slider {
+  /* Izinkan scroll horizontal, sembunyikan luapan vertikal */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.slide-chip {
+  display: inline-block;
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  margin-right: 8px;
+  font-weight: 600;
+  font-size: 13px;
+}

@@ -1,0 +1,19 @@
+/* ==========================================================================
+   43_initial_value.css
+   Materi: Keyword 'initial'
+   ========================================================================== */
+
+.parent-orange {
+  color: #ea580c; /* Oranye */
+  background-color: #fff7ed;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.reset-to-initial {
+  /* Memaksa properti color kembali ke nilai awal standar CSS (hitam #000) */
+  color: initial;
+  font-weight: bold;
+}

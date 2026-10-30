@@ -1,0 +1,21 @@
+/* ==========================================================================
+   39_source_order.css
+   Materi: Peran Source Order (Urutan Penulisan)
+   ========================================================================== */
+
+/* Dideklarasikan lebih awal di berkas CSS */
+.bg-blue {
+  background-color: #2563eb;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Dideklarasikan lebih akhir di berkas CSS (Spesifisitas sama: 0,0,1,0) */
+/* Aturan ini MENANG karena posisinya berada di bawah! */
+.bg-emerald {
+  background-color: #059669;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}

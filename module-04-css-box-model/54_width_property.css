@@ -1,0 +1,29 @@
+/* ==========================================================================
+   54_width_property.css
+   Materi: Properti 'width'
+   ========================================================================== */
+
+.width-card {
+  width: 360px; /* Lebar pasti kartu */
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.progress-track {
+  width: 100%; /* Memenuhi seluruh lebar kontainer induk */
+  height: 16px;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  width: 65%; /* Mengisi 65% dari wadah induk */
+  height: 100%;
+  background-color: #3b82f6;
+  border-radius: 9999px;
+}

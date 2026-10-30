@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>281 - Form Input Styling</title>
+  <link rel="stylesheet" href="281_form_input_styling.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #f1f5f9; padding: 20px; margin: 0; }</style>
+</head>
+<body>
+  <div class="form-card">
+    <h3 style="margin-top:0; color:#0f172a;">Formulir Pendaftaran</h3>
+    <div class="form-group">
+      <label class="form-label" for="nama">Nama Lengkap</label>
+      <input class="form-input" id="nama" type="text" placeholder="Contoh: Budi Santoso">
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="catatan">Catatan Tambahan</label>
+      <textarea class="form-textarea" id="catatan" placeholder="Tuliskan catatan opsional di sini..."></textarea>
+    </div>
+    <div class="form-group">
+      <label class="form-label">ID Akun (Terkunci)</label>
+      <input class="form-input" type="text" value="USR-99201" disabled>
+    </div>
+  </div>
+</body>
+</html>

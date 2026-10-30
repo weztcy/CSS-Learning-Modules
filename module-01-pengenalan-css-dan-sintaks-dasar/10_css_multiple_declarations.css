@@ -1,0 +1,33 @@
+/* ==========================================================================
+   10_css_multiple_declarations.css
+   Materi: Menggabungkan Banyak Deklarasi dalam Satu Ruleset
+   ========================================================================== */
+
+.feature-badge {
+  /* Deklarasi 1: Tipe tampilan inline-block agar dapat diatur padding */
+  display: inline-block;
+
+  /* Deklarasi 2: Warna latar ungu modern */
+  background-color: #7c3aed;
+
+  /* Deklarasi 3: Warna teks putih kontras tinggi */
+  color: #ffffff;
+
+  /* Deklarasi 4: Ukuran font proporsional */
+  font-size: 12px;
+
+  /* Deklarasi 5: Ketebalan font semi-bold */
+  font-weight: 600;
+
+  /* Deklarasi 6: Jarak ruang dalam vertikal dan horizontal */
+  padding: 6px 14px;
+
+  /* Deklarasi 7: Sudut melengkung penuh (pill/capsule style) */
+  border-radius: 9999px;
+
+  /* Deklarasi 8: Mengubah semua karakter menjadi huruf kapital */
+  text-transform: uppercase;
+
+  /* Deklarasi 9: Memberi sedikit jarak antar huruf untuk keterbacaan kapital */
+  letter-spacing: 0.05em;
+}

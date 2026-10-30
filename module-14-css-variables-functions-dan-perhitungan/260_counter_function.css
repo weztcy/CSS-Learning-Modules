@@ -1,0 +1,23 @@
+/* ==========================================================================
+   260_counter_function.css
+   Materi: Fungsi 'counters()' untuk Penomoran Bersarang (1.1, 1.2)
+   ========================================================================== */
+
+ol.nested-counter-list {
+  counter-reset: sectionNum;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ol.nested-counter-list li {
+  counter-increment: sectionNum;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+ol.nested-counter-list li::before {
+  /* Menggabungkan nomor induk dan nomor anak dipisahkan titik */
+  content: counters(sectionNum, ".") " ";
+  font-weight: bold;
+  color: #7c3aed;
+}

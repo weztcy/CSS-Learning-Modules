@@ -1,0 +1,33 @@
+/* ==========================================================================
+   262_design_tokens.css
+   Materi: Penerapan Design Tokens dengan CSS Variables
+   ========================================================================== */
+
+:root {
+  --token-color-primary: #2563eb;
+  --token-color-surface: #ffffff;
+  --token-radius-md: 8px;
+  --token-shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --token-space-unit: 16px;
+}
+
+.token-card {
+  background-color: var(--token-color-surface);
+  border-radius: var(--token-radius-md);
+  box-shadow: var(--token-shadow-card);
+  padding: calc(var(--token-space-unit) * 1.5);
+  border: 1px solid #e2e8f0;
+  max-width: 460px;
+  margin: 30px auto;
+}
+
+.token-btn {
+  background-color: var(--token-color-primary);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--token-radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}

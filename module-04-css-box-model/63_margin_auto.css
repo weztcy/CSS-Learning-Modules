@@ -1,0 +1,20 @@
+/* ==========================================================================
+   63_margin_auto.css
+   Materi: Pemusatan Horizontal dengan 'margin: auto'
+   ========================================================================== */
+
+.centered-modal {
+  /* Syarat wajib 1: Elemen harus memiliki lebar tertentu */
+  width: 90%;
+  max-width: 440px;
+
+  /* Syarat wajib 2: Margin horizontal disetel auto */
+  margin: 40px auto;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 26px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}

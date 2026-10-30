@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>290 - Details Summary Styling</title>
+  <link rel="stylesheet" href="290_details_summary_styling.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #f8fafc; padding: 20px; }</style>
+</head>
+<body>
+  <div class="accordion-group">
+    <h3 style="margin-top:0; color:#0f172a;">Pertanyaan Umum (FAQ)</h3>
+
+    <details class="accordion-item" open>
+      <summary class="accordion-title">Apakah CSS ini membutuhkan JavaScript?</summary>
+      <div class="accordion-content">
+        Tidak sama sekali! Elemen <code>&lt;details&gt;</code> dan <code>&lt;summary&gt;</code> memiliki fungsi toggle bawaan dari spesifikasi HTML5, dan CSS bertugas mengatur gayanya.
+      </div>
+    </details>
+
+    <details class="accordion-item">
+      <summary class="accordion-title">Bagaimana cara menghilangkan segitiga default?</summary>
+      <div class="accordion-content">
+        Gunakan <code>list-style: none;</code> pada <code>summary</code> untuk Firefox, serta <code>summary::-webkit-details-marker { display: none; }</code> untuk Chrome/Safari.
+      </div>
+    </details>
+  </div>
+</body>
+</html>

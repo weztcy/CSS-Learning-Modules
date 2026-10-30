@@ -1,0 +1,27 @@
+/* ==========================================================================
+   72_font_size.css
+   Materi: Properti 'font-size' dan Skala Tipografi Relatif
+   ========================================================================== */
+
+.title-large {
+  font-size: 2rem; /* 32px jika root 16px */
+  color: #0f172a;
+  margin: 0 0 10px 0;
+}
+
+.subtitle-medium {
+  font-size: 1.25rem; /* 20px */
+  color: #3b82f6;
+  margin: 0 0 12px 0;
+}
+
+.body-regular {
+  font-size: 1rem; /* 16px */
+  color: #475569;
+  line-height: 1.6;
+}
+
+.caption-small {
+  font-size: 0.8125rem; /* 13px */
+  color: #94a3b8;
+}

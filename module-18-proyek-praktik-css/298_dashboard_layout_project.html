@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>298 - Dashboard Layout Project</title>
+  <link rel="stylesheet" href="298_dashboard_layout_project.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #e2e8f0; padding: 20px; margin: 0; }</style>
+</head>
+<body>
+  <div class="dashboard-layout">
+    <!-- Sidebar Navigasi -->
+    <aside class="dash-sidebar">
+      <div class="dash-brand">&#9670; AnalyticsPro</div>
+      <ul class="dash-menu">
+        <li class="dash-menu-item active">Ringkasan</li>
+        <li class="dash-menu-item">Penjualan</li>
+        <li class="dash-menu-item">Pelanggan</li>
+        <li class="dash-menu-item">Pengaturan</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="dash-main">
+      <header class="dash-header">
+        <h3 class="dash-header-title">Dashboard Kinerja</h3>
+        <span style="font-size:12px; color:#64748b;">Admin: Budi S.</span>
+      </header>
+
+      <div class="dash-body">
+        <div class="dash-metrics-grid">
+          <div class="kpi-card">
+            <p class="kpi-title">Total Pendapatan</p>
+            <h4 class="kpi-number">Rp 48.5 jt</h4>
+            <span class="kpi-trend">+14% bln ini</span>
+          </div>
+          <div class="kpi-card">
+            <p class="kpi-title">Pengguna Baru</p>
+            <h4 class="kpi-number">1,240</h4>
+            <span class="kpi-trend">+8% bln ini</span>
+          </div>
+          <div class="kpi-card">
+            <p class="kpi-title">Tingkat Konversi</p>
+            <h4 class="kpi-number">3.6%</h4>
+            <span class="kpi-trend">+0.4%</span>
+          </div>
+        </div>
+
+        <div class="dash-chart-card">
+          <p style="font-size:12px; font-weight:600; color:#334155; margin:0 0 10px 0;">Tren Penjualan Mingguan</p>
+          <div class="chart-bars">
+            <div class="bar" style="height: 45%;"></div>
+            <div class="bar" style="height: 60%;"></div>
+            <div class="bar" style="height: 35%;"></div>
+            <div class="bar" style="height: 80%;"></div>
+            <div class="bar" style="height: 95%;"></div>
+            <div class="bar" style="height: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
