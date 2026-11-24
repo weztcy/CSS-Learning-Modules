@@ -1,0 +1,25 @@
+/* ==========================================================================
+   149_flex_wrap.css
+   Materi: Properti 'flex-wrap' (Pembungkusan Baris)
+   ========================================================================== */
+
+.tag-cloud-container {
+  display: flex;
+  flex-wrap: wrap; /* Mengizinkan item turun ke baris berikutnya */
+  gap: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.tag-chip {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+  padding: 8px 14px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 600;
+}

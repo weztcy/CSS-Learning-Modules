@@ -1,0 +1,15 @@
+/* ==========================================================================
+   119_box_shadow.css
+   Materi: Properti 'box-shadow' (Elevasi dan Kedalaman)
+   ========================================================================== */
+
+.shadow-card {
+  background-color: #ffffff;
+  padding: 28px;
+  border-radius: 12px;
+  max-width: 460px;
+  margin: 30px auto;
+
+  /* X: 0, Y: 10px, Blur: 25px, Spread: -5px, Color: hitam 10% */
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}

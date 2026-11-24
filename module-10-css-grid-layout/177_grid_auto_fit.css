@@ -1,0 +1,27 @@
+/* ==========================================================================
+   177_grid_auto_fit.css
+   Materi: Pola Responsif Mandiri 'auto-fit'
+   ========================================================================== */
+
+.auto-fit-grid {
+  display: grid;
+  /* Otomatis menentukan jumlah kolom, setiap kolom minimal 130px dan meregang 1fr */
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.fit-card {
+  background-color: #eff6ff;
+  border: 1px solid #93c5fd;
+  color: #1e40af;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}

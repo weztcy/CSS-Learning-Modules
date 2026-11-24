@@ -1,0 +1,29 @@
+/* ==========================================================================
+   176_grid_auto_columns_rows.css
+   Materi: Lintasan Implisit 'grid-auto-rows'
+   ========================================================================== */
+
+.implicit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Setiap baris baru yang terbentuk otomatis diberi tinggi tepat 70px */
+  grid-auto-rows: 70px;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.implicit-item {
+  background-color: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   268_import_at_rule.css
+   Materi: At-rule '@import' (Modularitas File CSS)
+   ========================================================================== */
+
+/* Catatan: @import WAJIB diletakkan di paling atas berkas CSS */
+/* @import url("theme-tokens.css"); */
+
+.import-demo-card {
+  background-color: #ffffff;
+  border-left: 4px solid #2563eb;
+  padding: 24px;
+  border-radius: 0 8px 8px 0;
+  max-width: 460px;
+  margin: 30px auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}

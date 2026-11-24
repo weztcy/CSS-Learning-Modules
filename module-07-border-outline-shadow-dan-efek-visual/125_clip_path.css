@@ -1,0 +1,17 @@
+/* ==========================================================================
+   125_clip_path.css
+   Materi: Properti 'clip-path' (Pemotongan Geometris)
+   ========================================================================== */
+
+.chevron-badge {
+  /* Memotong elemen menjadi bentuk panah pita 5 titik koordinat */
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%);
+
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  font-weight: 700;
+  padding: 16px 36px;
+  text-align: center;
+  max-width: 320px;
+  margin: 40px auto;
+}

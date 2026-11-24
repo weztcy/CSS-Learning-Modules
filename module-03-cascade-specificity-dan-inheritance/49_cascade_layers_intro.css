@@ -1,0 +1,35 @@
+/* ==========================================================================
+   49_cascade_layers_intro.css
+   Materi: Pengenalan Cascade Layers (@layer)
+   ========================================================================== */
+
+/* Menetapkan urutan prioritas layer: reset < framework < custom */
+@layer reset, framework, custom;
+
+@layer reset {
+  button {
+    border: none;
+    padding: 0;
+  }
+}
+
+@layer framework {
+  /* Meskipun menggunakan ID selector, layer framework berada di bawah layer custom */
+  #main-action-btn {
+    background-color: #94a3b8;
+    color: white;
+    padding: 8px 12px;
+  }
+}
+
+@layer custom {
+  /* Selector kelas biasa di layer custom MENANG terhadap ID di layer framework */
+  .btn-highlight {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

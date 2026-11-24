@@ -1,0 +1,24 @@
+/* ==========================================================================
+   277_css_feature_detection.css
+   Materi: Deteksi Selector dengan '@supports selector(...)'
+   ========================================================================== */
+
+.detection-badge {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Aktif jika browser mendukung selector :has() */
+@supports selector(:has(div)) {
+  .detection-badge {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #10b981;
+  }
+}

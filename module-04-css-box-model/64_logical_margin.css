@@ -1,0 +1,21 @@
+/* ==========================================================================
+   64_logical_margin.css
+   Materi: CSS Logical Properties untuk Margin
+   ========================================================================== */
+
+.logical-box {
+  width: 90%;
+  max-width: 480px;
+
+  /* Sumbu blok (vertikal: atas & bawah) */
+  margin-block: 25px;
+
+  /* Sumbu inline (horizontal: kiri & kanan) */
+  margin-inline: auto;
+
+  background-color: #ffffff;
+  border-inline-start: 5px solid #6366f1; /* Menggantikan border-left fisik */
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

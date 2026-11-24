@@ -1,0 +1,15 @@
+/* ==========================================================================
+   111_border_property.css
+   Materi: Shorthand 'border' (Width + Style + Color)
+   ========================================================================== */
+
+.bordered-card {
+  /* 2px ketebalan | solid gaya garis | #2563eb warna */
+  border: 2px solid #2563eb;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

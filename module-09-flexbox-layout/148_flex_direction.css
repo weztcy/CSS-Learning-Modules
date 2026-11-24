@@ -1,0 +1,25 @@
+/* ==========================================================================
+   148_flex_direction.css
+   Materi: Properti 'flex-direction' (Orientasi Sumbu Utama)
+   ========================================================================== */
+
+.column-flex {
+  display: flex;
+  flex-direction: column; /* Mengubah orientasi sumbu utama menjadi vertikal */
+  gap: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 420px;
+  margin: 30px auto;
+}
+
+.col-step {
+  background-color: #f0fdf4;
+  border-left: 4px solid #10b981;
+  color: #065f46;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+}

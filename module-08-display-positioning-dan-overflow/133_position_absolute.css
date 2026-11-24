@@ -1,0 +1,27 @@
+/* ==========================================================================
+   133_position_absolute.css
+   Materi: 'position: absolute' dan Induk 'relative'
+   ========================================================================== */
+
+.product-card-rel {
+  position: relative; /* Menjadi titik patokan koordinat (0,0) bagi anak absolute */
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 10px;
+  max-width: 420px;
+  margin: 40px auto;
+}
+
+.floating-badge {
+  position: absolute; /* Lepas dari alur, menempel di pojok */
+  top: -10px;
+  right: -10px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px rgba(239, 68, 68, 0.3);
+}

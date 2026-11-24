@@ -1,0 +1,23 @@
+/* ==========================================================================
+   233_transform_style.css
+   Materi: 'transform-style: preserve-3d'
+   ========================================================================== */
+
+.scene-preserve {
+  perspective: 1000px;
+  padding: 30px;
+}
+
+.flipper-parent {
+  /* Mempertahankan ruang 3D untuk seluruh elemen anak di dalamnya */
+  transform-style: preserve-3d;
+  transform: rotateY(30deg);
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}

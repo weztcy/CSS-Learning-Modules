@@ -1,0 +1,43 @@
+/* ==========================================================================
+   14_css_color_values.css
+   Materi: Format Representasi Warna dalam CSS
+   ========================================================================== */
+
+/* Format 1: Named Colors (Kata Kunci Resmi) */
+.swatch-named {
+  background-color: crimson;
+  color: white;
+}
+
+/* Format 2: Heksadesimal 6 digit (#RRGGBB) */
+.swatch-hex {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Format 3: Fungsi RGB (Red, Green, Blue: 0 - 255) */
+.swatch-rgb {
+  background-color: rgb(16, 185, 129);
+  color: white;
+}
+
+/* Format 4: Fungsi HSL (Hue: 0-360, Saturation: %, Lightness: %) */
+.swatch-hsl {
+  background-color: hsl(271, 76%, 53%);
+  color: white;
+}
+
+/* Format 5: Warna dengan kanal Alpha/Transparansi */
+.swatch-alpha {
+  background-color: rgba(30, 41, 59, 0.75);
+  color: white;
+}
+
+/* Penataan umum untuk swatch */
+.swatch-item {
+  padding: 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-family: monospace;
+  font-size: 14px;
+}

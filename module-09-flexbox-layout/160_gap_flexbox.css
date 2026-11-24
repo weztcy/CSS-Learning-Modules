@@ -1,0 +1,28 @@
+/* ==========================================================================
+   160_gap_flexbox.css
+   Materi: Properti 'gap' pada Flexbox
+   ========================================================================== */
+
+.btn-group-gap {
+  display: flex;
+  /* Jarak bersih 16px di antara tombol (tanpa margin di tepi luar) */
+  gap: 16px;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 440px;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.action-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   163_flexbox_centering.css
+   Materi: Pemusatan Sempurna Horizontal & Vertikal
+   ========================================================================== */
+
+.perfect-center-frame {
+  height: 220px;
+  max-width: 480px;
+  margin: 30px auto;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+
+  /* Dua instruksi sakti pemusatan Flexbox */
+  display: flex;
+  justify-content: center; /* Tengah horizontal */
+  align-items: center;     /* Tengah vertikal */
+}
+
+.center-card {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: 700;
+  color: #1e293b;
+}

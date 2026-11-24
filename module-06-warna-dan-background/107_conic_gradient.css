@@ -1,0 +1,14 @@
+/* ==========================================================================
+   107_conic_gradient.css
+   Materi: Conic Gradient (Gradasi Kerucut / Pie Chart)
+   ========================================================================== */
+
+.pie-chart {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  /* 70% biru (#2563eb), 30% abu-abu (#cbd5e1) */
+  background: conic-gradient(#2563eb 0% 70%, #cbd5e1 70% 100%);
+  margin: 20px auto;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}

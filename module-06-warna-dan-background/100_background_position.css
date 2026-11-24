@@ -1,0 +1,19 @@
+/* ==========================================================================
+   100_background_position.css
+   Materi: Properti 'background-position'
+   ========================================================================== */
+
+.positioned-bg-card {
+  background-color: #eff6ff;
+  background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 24 24' fill='none' stroke='%233b82f6' stroke-width='2' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+
+  /* Menempatkan gambar 20px dari kanan dan 20px dari bawah */
+  background-position: right 20px bottom 20px;
+
+  border: 1px solid #bfdbfe;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}

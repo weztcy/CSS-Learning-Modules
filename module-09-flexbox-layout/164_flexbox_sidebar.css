@@ -1,0 +1,30 @@
+/* ==========================================================================
+   164_flexbox_sidebar.css
+   Materi: Pola Layout Sidebar dengan Flexbox
+   ========================================================================== */
+
+.admin-layout {
+  display: flex;
+  max-width: 580px;
+  min-height: 200px;
+  margin: 30px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-sidebar {
+  /* Lebar pasti 160px: tidak membesar, tidak menyusut */
+  flex: 0 0 160px;
+  background-color: #1e293b;
+  color: #94a3b8;
+  padding: 20px 16px;
+  font-size: 13px;
+}
+
+.admin-content {
+  /* Menyerap 100% sisa lebar ruang */
+  flex: 1;
+  background-color: #ffffff;
+  padding: 24px;
+}

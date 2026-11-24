@@ -1,0 +1,35 @@
+/* ==========================================================================
+   240_keyframes_animation.css
+   Materi: At-rule '@keyframes'
+   ========================================================================== */
+
+/* Definisi linimasa animasi */
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.5);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(37, 99, 235, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+  }
+}
+
+.pulse-badge {
+  /* Memanggil linimasa animasi */
+  animation-name: pulseGlow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  background-color: #2563eb;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 9999px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 30px auto;
+}

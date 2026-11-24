@@ -1,0 +1,17 @@
+/* ==========================================================================
+   118_outline_offset.css
+   Materi: Properti 'outline-offset'
+   ========================================================================== */
+
+.offset-card {
+  background-color: #ffffff;
+  border: 2px solid #7c3aed;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 460px;
+  margin: 40px auto;
+
+  /* Outline diberi jarak 5px melayang dari tepi border */
+  outline: 2px dashed #a855f7;
+  outline-offset: 5px;
+}

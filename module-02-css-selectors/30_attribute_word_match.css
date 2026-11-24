@@ -1,0 +1,22 @@
+/* ==========================================================================
+   30_attribute_word_match.css
+   Materi: Attribute Word Matching [attr~='val']
+   ========================================================================== */
+
+/* Menargetkan elemen dengan atribut data-tags yang memuat kata utuh 'urgent' */
+[data-tags~="urgent"] {
+  background-color: #fef2f2;
+  border-left: 5px solid #ef4444;
+  color: #991b1b;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Elemen dengan tag biasa */
+.task-item {
+  border: 1px solid #cbd5e1;
+  padding: 14px;
+  border-radius: 6px;
+  background: white;
+}

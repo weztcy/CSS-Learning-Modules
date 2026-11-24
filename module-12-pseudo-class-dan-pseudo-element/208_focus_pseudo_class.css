@@ -1,0 +1,21 @@
+/* ==========================================================================
+   208_focus_pseudo_class.css
+   Materi: Pseudo-class ':focus'
+   ========================================================================== */
+
+.focus-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Status saat input aktif difokuskan */
+.focus-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+}

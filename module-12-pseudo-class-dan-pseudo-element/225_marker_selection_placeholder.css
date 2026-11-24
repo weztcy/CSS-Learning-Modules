@@ -1,0 +1,23 @@
+/* ==========================================================================
+   225_marker_selection_placeholder.css
+   Materi: '::marker', '::selection', dan '::placeholder'
+   ========================================================================== */
+
+/* 1. Kustomisasi warna seleksi blok teks kursor */
+::selection {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+/* 2. Kustomisasi titik bullet list */
+.custom-list li::marker {
+  color: #2563eb;
+  font-size: 1.2em;
+}
+
+/* 3. Kustomisasi teks petunjuk placeholder form */
+.custom-placeholder::placeholder {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 13px;
+}

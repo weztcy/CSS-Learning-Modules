@@ -1,0 +1,28 @@
+/* ==========================================================================
+   196_responsive_flexbox.css
+   Materi: Pola Responsif Flexbox
+   ========================================================================== */
+
+.feature-flex-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 540px;
+  margin: 30px auto;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (min-width: 500px) {
+  .feature-flex-grid {
+    flex-direction: row;
+  }
+  .feature-box {
+    flex: 1;
+  }
+}

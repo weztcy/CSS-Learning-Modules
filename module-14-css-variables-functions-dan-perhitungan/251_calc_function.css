@@ -1,0 +1,19 @@
+/* ==========================================================================
+   251_calc_function.css
+   Materi: Fungsi 'calc()' (Kalkulasi Matematis Campuran)
+   ========================================================================== */
+
+.calc-box {
+  /* Menghitung lebar: 100% dikurangi margin 40px */
+  width: calc(100% - 40px);
+  max-width: 480px;
+
+  background-color: #ffffff;
+  border: 2px solid #3b82f6;
+  padding: calc(10px + 8px); /* 18px padding */
+  border-radius: 8px;
+  margin: 30px auto;
+  text-align: center;
+  color: #1e40af;
+  font-weight: 600;
+}

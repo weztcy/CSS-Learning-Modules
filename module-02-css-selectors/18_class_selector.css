@@ -1,0 +1,29 @@
+/* ==========================================================================
+   18_class_selector.css
+   Materi: Class Selector (.)
+   ========================================================================== */
+
+/* Kelas dasar untuk seluruh tombol */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+}
+
+/* Variasi tombol tema utama (primary) */
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* Variasi tombol tema pendamping (secondary) */
+.btn-secondary {
+  background-color: #e2e8f0;
+  color: #334155;
+}

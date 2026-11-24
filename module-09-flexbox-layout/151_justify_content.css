@@ -1,0 +1,24 @@
+/* ==========================================================================
+   151_justify_content.css
+   Materi: Properti 'justify-content'
+   ========================================================================== */
+
+.nav-justify-between {
+  display: flex;
+  /* Memisahkan logo ke ujung kiri dan menu ke ujung kanan */
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  max-width: 550px;
+  margin: 30px auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}

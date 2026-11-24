@@ -1,0 +1,33 @@
+/* ==========================================================================
+   175_grid_auto_flow.css
+   Materi: Properti 'grid-auto-flow: column'
+   ========================================================================== */
+
+.column-flow-grid {
+  display: grid;
+  /* 2 baris pasti */
+  grid-template-rows: 60px 60px;
+  
+  /* Item mengalir vertikal memenuhi baris dulu, lalu membuat kolom baru ke samping */
+  grid-auto-flow: column;
+  grid-auto-columns: 120px;
+  
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 30px auto;
+  overflow-x: auto;
+}
+
+.flow-item {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

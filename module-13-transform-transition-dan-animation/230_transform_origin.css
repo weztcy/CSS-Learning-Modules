@@ -1,0 +1,19 @@
+/* ==========================================================================
+   230_transform_origin.css
+   Materi: Properti 'transform-origin' (Titik Poros Tumpu)
+   ========================================================================== */
+
+.origin-rotated-card {
+  /* Menetapkan titik poros engsel di pojok kiri atas */
+  transform-origin: top left;
+  transform: rotate(15deg);
+
+  background-color: #7c3aed;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 380px;
+  margin: 40px auto;
+  font-weight: 600;
+  text-align: center;
+}

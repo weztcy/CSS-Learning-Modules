@@ -1,0 +1,17 @@
+/* ==========================================================================
+   11_css_whitespace.css
+   Materi: Perilaku Whitespace dalam CSS
+   ========================================================================== */
+
+/* Gaya 1: Ditulis dengan indentasi dan baris baru yang lapang (Direkomendasikan untuk pengembangan) */
+.box-expanded {
+  background-color : #f0fdf4 ;
+  border           : 2px solid #86efac ;
+  color            : #166534 ;
+  padding          : 20px ;
+  border-radius    : 8px ;
+  margin-bottom    : 15px ;
+}
+
+/* Gaya 2: Ditulis satu baris tanpa spasi berlebih (Format minified) */
+.box-collapsed{background-color:#eff6ff;border:2px solid #93c5fd;color:#1e40af;padding:20px;border-radius:8px;}

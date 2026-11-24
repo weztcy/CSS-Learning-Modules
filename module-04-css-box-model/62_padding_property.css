@@ -1,0 +1,21 @@
+/* ==========================================================================
+   62_padding_property.css
+   Materi: Properti 'padding'
+   ========================================================================== */
+
+.card-padded {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  max-width: 450px;
+  margin: 30px auto;
+
+  /* Shorthand padding: 24px atas-bawah, 32px kiri-kanan */
+  padding: 24px 32px;
+}
+
+.card-padded h3 {
+  margin-top: 0;
+  color: #0f172a;
+}

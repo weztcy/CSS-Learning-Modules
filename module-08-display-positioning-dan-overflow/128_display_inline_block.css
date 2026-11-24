@@ -1,0 +1,19 @@
+/* ==========================================================================
+   128_display_inline_block.css
+   Materi: 'display: inline-block'
+   ========================================================================== */
+
+.inline-block-item {
+  display: inline-block; /* Berdampingan horizontal + menerima dimensi width/height */
+  width: 140px;
+  height: 80px;
+  background-color: #ecfdf5;
+  border: 1px solid #10b981;
+  color: #065f46;
+  border-radius: 8px;
+  padding: 12px;
+  margin-right: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: top;
+}

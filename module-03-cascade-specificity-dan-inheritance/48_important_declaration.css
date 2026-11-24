@@ -1,0 +1,19 @@
+/* ==========================================================================
+   48_important_declaration.css
+   Materi: Deklarasi '!important' dan Hierarki Kekuatannya
+   ========================================================================== */
+
+/* ID Selector berbobot tinggi (0, 1, 0, 0) */
+#special-alert {
+  background-color: #f1f5f9;
+  color: #334155;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Class utilitas berbobot rendah (0, 0, 1, 0) MENANG karena menggunakan !important */
+.force-danger {
+  background-color: #fee2e2 !important;
+  color: #b91c1c !important;
+  border: 2px solid #ef4444 !important;
+}

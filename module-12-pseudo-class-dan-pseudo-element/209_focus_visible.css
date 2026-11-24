@@ -1,0 +1,21 @@
+/* ==========================================================================
+   209_focus_visible.css
+   Materi: Aksesibilitas ':focus-visible'
+   ========================================================================== */
+
+.smart-btn {
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none; /* Hilangkan outline mouse kaku */
+}
+
+/* Cincin fokus HANYA muncul saat navigasi keyboard (Tab) */
+.smart-btn:focus-visible {
+  outline: 3px solid #38bdf8;
+  outline-offset: 3px;
+}

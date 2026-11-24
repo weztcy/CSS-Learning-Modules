@@ -1,0 +1,30 @@
+/* ==========================================================================
+   94_hsl_colors.css
+   Materi: Fungsi 'hsl()' (Hue, Saturation, Lightness)
+   ========================================================================== */
+
+/* Hue 270 (Ungu), Saturation 80%, Lightness 35% (Gelap) */
+.hsl-dark {
+  background-color: hsl(270, 80%, 35%);
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Hue 270 (Ungu), Saturation 80%, Lightness 60% (Sedang) */
+.hsl-medium {
+  background-color: hsl(270, 80%, 60%);
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Hue 270 (Ungu), Saturation 80%, Lightness 88% (Pastel) */
+.hsl-light {
+  background-color: hsl(270, 80%, 88%);
+  color: #581c87;
+  padding: 12px;
+  border-radius: 6px;
+}

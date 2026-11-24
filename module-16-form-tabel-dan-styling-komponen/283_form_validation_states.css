@@ -1,0 +1,68 @@
+/* ==========================================================================
+   283_form_validation_states.css
+   Materi: Validasi Visual Formulir (:valid & :invalid)
+   ========================================================================== */
+
+.val-card {
+  max-width: 440px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.val-field {
+  margin-bottom: 18px;
+}
+
+.val-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+.val-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Status valid: ketika input memenuhi pola dan tidak kosong */
+.val-input:focus:valid {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+  background-color: #f0fdf4;
+}
+
+/* Status invalid: ketika input tidak memenuhi kriteria */
+.val-input:focus:invalid {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+  background-color: #fef2f2;
+}
+
+/* Teks petunjuk validasi otomatis menggunakan sibling selector */
+.hint-text {
+  font-size: 12px;
+  margin-top: 4px;
+  display: none;
+}
+
+.val-input:focus:invalid ~ .hint-invalid {
+  display: block;
+  color: #dc2626;
+}
+
+.val-input:focus:valid ~ .hint-valid {
+  display: block;
+  color: #16a34a;
+}

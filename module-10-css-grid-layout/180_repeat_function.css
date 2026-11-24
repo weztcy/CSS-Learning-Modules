@@ -1,0 +1,28 @@
+/* ==========================================================================
+   180_repeat_function.css
+   Materi: Fungsi 'repeat()'
+   ========================================================================== */
+
+.repeat-grid {
+  display: grid;
+  /* Notasi ringkas pengganti 1fr 1fr 1fr 1fr */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.quarter-card {
+  background-color: #e0e7ff;
+  border: 1px solid #818cf8;
+  color: #3730a3;
+  padding: 14px 6px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+}

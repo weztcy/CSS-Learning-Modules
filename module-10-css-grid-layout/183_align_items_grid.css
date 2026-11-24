@@ -1,0 +1,29 @@
+/* ==========================================================================
+   183_align_items_grid.css
+   Materi: Properti 'align-items' pada Grid
+   ========================================================================== */
+
+.align-grid-demo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90px;
+  /* Meratakan isi di tengah ketinggian baris sel */
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.align-badge {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #10b981;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}

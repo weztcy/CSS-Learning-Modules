@@ -1,0 +1,15 @@
+/* ==========================================================================
+   98_background_image.css
+   Materi: Properti 'background-image' (Pola Grafis Mandiri)
+   ========================================================================== */
+
+.grid-pattern-card {
+  /* Menggunakan SVG data-URI untuk pola kisi teknis mandiri */
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 20 0 L 0 0 0 20' fill='none' stroke='%23e2e8f0' stroke-width='1'/%3E%3C/svg%3E");
+  border: 1px solid #cbd5e1;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}

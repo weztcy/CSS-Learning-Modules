@@ -1,0 +1,108 @@
+/* ==========================================================================
+   297_responsive_portfolio_project.css
+   Proyek Praktik 2: Portofolio Kreatif Responsif
+   ========================================================================== */
+
+.portfolio-container {
+  max-width: 860px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+/* Header Portofolio */
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.portfolio-title {
+  font-size: 26px;
+  color: #0f172a;
+  margin: 0 0 8px 0;
+}
+
+.portfolio-subtitle {
+  font-size: 15px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Grid Galeri Karya Responsif */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Kartu Proyek */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Visual Thumbnail Proyek */
+.project-thumb {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.thumb-blue   { background: linear-gradient(135deg, #2563eb, #38bdf8); }
+.thumb-purple { background: linear-gradient(135deg, #7c3aed, #c084fc); }
+.thumb-emerald{ background: linear-gradient(135deg, #059669, #34d399); }
+
+/* Isi Keterangan Kartu */
+.project-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-tag {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 600;
+  color: #4f46e5;
+  background-color: #eef2ff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.project-name {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.project-desc {
+  margin: 0 0 14px 0;
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.project-link {
+  margin-top: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}

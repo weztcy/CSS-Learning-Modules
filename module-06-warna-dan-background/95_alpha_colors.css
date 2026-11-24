@@ -1,0 +1,22 @@
+/* ==========================================================================
+   95_alpha_colors.css
+   Materi: Transparansi Warna dengan Kanal Alpha
+   ========================================================================== */
+
+.alpha-backdrop {
+  background: linear-gradient(45deg, #f43f5e, #fb923c);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.alpha-modal {
+  /* Kanal alpha 0.85: latar semi-transparan, teks tetap 100% tajam! */
+  background-color: rgba(15, 23, 42, 0.85);
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}

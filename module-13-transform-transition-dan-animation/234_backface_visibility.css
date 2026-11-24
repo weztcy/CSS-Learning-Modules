@@ -1,0 +1,19 @@
+/* ==========================================================================
+   234_backface_visibility.css
+   Materi: 'backface-visibility: hidden' (Kartu Bolak-Balik)
+   ========================================================================== */
+
+.card-face {
+  /* Menyembunyikan sisi belakang saat elemen berputar membelakangi pengamat */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  background-color: #2563eb;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+}

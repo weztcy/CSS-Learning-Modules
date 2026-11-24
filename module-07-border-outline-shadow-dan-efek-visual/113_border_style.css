@@ -1,0 +1,30 @@
+/* ==========================================================================
+   113_border_style.css
+   Materi: Ragam 'border-style'
+   ========================================================================== */
+
+.box-dashed {
+  border: 2px dashed #3b82f6; /* Putus-putus khas area drag & drop */
+  background-color: #eff6ff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.box-dotted {
+  border: 2px dotted #10b981; /* Titik-titik khas voucher kupon */
+  background-color: #ecfdf5;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.box-double {
+  border: 4px double #8b5cf6; /* Garis ganda elegan */
+  background-color: #f5f3ff;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}

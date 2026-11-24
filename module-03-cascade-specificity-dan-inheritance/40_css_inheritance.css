@@ -1,0 +1,20 @@
+/* ==========================================================================
+   40_css_inheritance.css
+   Materi: Konsep Pewarisan (Inheritance)
+   ========================================================================== */
+
+/* Properti yang didefinisikan pada kontainer induk */
+.parent-card {
+  /* Diwariskan ke semua elemen anak di dalamnya */
+  color: #334155;
+  font-family: Georgia, serif;
+  line-height: 1.8;
+
+  /* Properti non-inherited: HANYA berlaku untuk kontainer induk ini */
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 520px;
+  margin: 30px auto;
+}

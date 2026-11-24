@@ -1,0 +1,17 @@
+/* ==========================================================================
+   88_word_break.css
+   Materi: Properti 'word-break: break-all'
+   ========================================================================== */
+
+.break-all-card {
+  width: 260px;
+  background-color: #fef2f2;
+  border: 1px solid #f87171;
+  padding: 16px;
+  border-radius: 8px;
+  color: #991b1b;
+  margin: 20px auto;
+
+  /* Mematahkan kata persis di karakter terakhir sebelum overflow */
+  word-break: break-all;
+}

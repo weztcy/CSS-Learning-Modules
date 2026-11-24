@@ -1,0 +1,17 @@
+/* ==========================================================================
+   45_unset_keyword.css
+   Materi: Keyword 'unset' dan Properti 'all'
+   ========================================================================== */
+
+/* Tombol mentah yang di-unset seluruh propertinya */
+.btn-reset {
+  /* 'all: unset' menetralkan seluruh properti elemen kembali ke nilai dasar */
+  all: unset;
+  cursor: pointer;
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+}

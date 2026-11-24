@@ -1,0 +1,26 @@
+/* ==========================================================================
+   23_adjacent_sibling_selector.css
+   Materi: Adjacent Sibling Combinator (+)
+   ========================================================================== */
+
+h2 {
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+/* Hanya menargetkan <p> yang posisinya persis bersebelahan setelah <h2> */
+h2 + p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e40af;
+  background-color: #dbeafe;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+/* Paragraf berikutnya yang tidak bersebelahan langsung dengan <h2> */
+p {
+  color: #475569;
+  line-height: 1.6;
+  margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   132_position_relative.css
+   Materi: 'position: relative' (Pergeseran Relatif)
+   ========================================================================== */
+
+.relative-box {
+  position: relative; /* Aktifkan mode pergeseran */
+  top: 12px;           /* Geser 12px ke bawah dari posisi asli */
+  left: 20px;          /* Geser 20px ke kanan dari posisi asli */
+
+  background-color: #dbeafe;
+  border: 2px solid #2563eb;
+  color: #1e40af;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 450px;
+  font-weight: 600;
+}

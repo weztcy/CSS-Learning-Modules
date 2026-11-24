@@ -1,0 +1,17 @@
+/* ==========================================================================
+   117_outline_property.css
+   Materi: Properti 'outline' dan Aksesibilitas
+   ========================================================================== */
+
+.outline-btn {
+  background-color: #2563eb;
+  color: white;
+  border: 2px solid #1d4ed8;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+
+  /* Outline digambar di luar elemen tanpa memengaruhi lebar/tinggi elemen */
+  outline: 3px solid #93c5fd;
+}

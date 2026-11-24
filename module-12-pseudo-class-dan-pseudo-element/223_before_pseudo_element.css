@@ -1,0 +1,26 @@
+/* ==========================================================================
+   223_before_pseudo_element.css
+   Materi: Pseudo-element '::before'
+   ========================================================================== */
+
+.tip-card {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+  padding: 18px 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+  font-weight: 500;
+}
+
+/* Menyisipkan lencana virtual tepat sebelum isi teks */
+.tip-card::before {
+  content: "TIPS: ";
+  font-weight: 800;
+  color: #2563eb;
+  background-color: #dbeafe;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+}

@@ -1,0 +1,43 @@
+/* ==========================================================================
+   282_form_focus_states.css
+   Materi: Focus States pada Formulir
+   ========================================================================== */
+
+.focus-form-container {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.input-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #0f172a;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  /* Menghilangkan outline bawaan peramban agar digantikan ring kustom */
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Status :focus aktif - memberikan efek cincin fokus biru */
+.input-box:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.25);
+  background-color: #f8fafc;
+}
+
+/* Status fokus spesifik keyboard (:focus-visible) */
+.input-box:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+}

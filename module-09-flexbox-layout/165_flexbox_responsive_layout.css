@@ -1,0 +1,23 @@
+/* ==========================================================================
+   165_flexbox_responsive_layout.css
+   Materi: Responsive Layout dengan Flexbox
+   ========================================================================== */
+
+.responsive-flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  max-width: 580px;
+  margin: 30px auto;
+}
+
+.responsive-col {
+  /* Fleksibel dengan lebar basis minimal 160px */
+  flex: 1 1 160px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+/* ==========================================================================
+   131_position_static.css
+   Materi: 'position: static' (Posisi Normal Alur Dokumen)
+   ========================================================================== */
+
+.static-box {
+  position: static; /* Default browser */
+
+  /* Kedua properti ini DIABAIKAN karena elemen bersifat static */
+  top: 50px;
+  left: 50px;
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 450px;
+  margin: 30px auto;
+  color: #334155;
+}

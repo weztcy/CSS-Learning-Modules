@@ -1,0 +1,27 @@
+/* ==========================================================================
+   123_backdrop_filter.css
+   Materi: 'backdrop-filter' (Efek Frosted Glass / Glassmorphism)
+   ========================================================================== */
+
+.glass-wrapper {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6);
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.glass-card {
+  /* Latar transparan */
+  background-color: rgba(255, 255, 255, 0.25);
+
+  /* Efek kabur pada area di belakang kartu */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  padding: 26px;
+  color: #ffffff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}

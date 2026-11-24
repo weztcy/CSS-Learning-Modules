@@ -1,0 +1,16 @@
+/* ==========================================================================
+   46_revert_keyword.css
+   Materi: Keyword 'revert'
+   ========================================================================== */
+
+ul.reverted-list {
+  /* Mengembalikan gaya list-style ke bawaan User-Agent Stylesheet browser */
+  list-style: revert;
+  padding-left: revert;
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  padding: 16px 30px;
+  border-radius: 6px;
+  max-width: 450px;
+  margin: 0 auto;
+}

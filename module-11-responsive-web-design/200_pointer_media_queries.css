@@ -1,0 +1,23 @@
+/* ==========================================================================
+   200_pointer_media_queries.css
+   Materi: Pointer Media Queries (fine vs coarse)
+   ========================================================================== */
+
+.touch-target-btn {
+  background-color: #0d9488;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Jika menggunakan jari pada touchscreen, besarkan tombol agar mudah disentuh */
+@media (pointer: coarse) {
+  .touch-target-btn {
+    padding: 14px 28px;
+    font-size: 16px;
+    min-height: 48px; /* Target sentuh ramah jempol */
+  }
+}

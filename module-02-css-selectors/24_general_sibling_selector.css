@@ -1,0 +1,23 @@
+/* ==========================================================================
+   24_general_sibling_selector.css
+   Materi: General Sibling Combinator (~)
+   ========================================================================== */
+
+.target-flag {
+  background-color: #dc2626;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Seluruh elemen <p> yang berada setelah .target-flag di induk yang sama */
+.target-flag ~ p {
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border-left: 3px solid #ef4444;
+  padding: 8px 12px;
+  margin-top: 8px;
+}

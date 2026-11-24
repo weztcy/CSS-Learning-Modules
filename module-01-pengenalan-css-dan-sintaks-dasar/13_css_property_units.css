@@ -1,0 +1,35 @@
+/* ==========================================================================
+   13_css_property_units.css
+   Materi: Satuan Nilai CSS (Absolut vs Relatif)
+   ========================================================================== */
+
+.unit-container {
+  /* Satuan relatif persentase: menggunakan 100% dari lebar ruang yang tersedia */
+  width: 90%;
+  max-width: 550px;
+
+  /* Satuan absolut piksel: nilai pasti yang tidak berubah */
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+
+  /* Satuan relatif em: berbasis ukuran font kontainer saat ini */
+  padding: 1.5em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.unit-title {
+  /* Satuan relatif rem: 1.5 kali ukuran root font (default browser 16px -> 24px) */
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-top: 0;
+}
+
+.unit-bar {
+  /* Satuan persentase: lebar 75% dari kontainer induk */
+  width: 75%;
+  height: 12px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  margin-top: 10px;
+}

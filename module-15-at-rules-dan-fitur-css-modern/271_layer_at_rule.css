@@ -1,0 +1,26 @@
+/* ==========================================================================
+   271_layer_at_rule.css
+   Materi: At-rule '@layer'
+   ========================================================================== */
+
+@layer base, overrides;
+
+@layer base {
+  .layered-btn {
+    background-color: #94a3b8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+  }
+}
+
+@layer overrides {
+  /* Layer 'overrides' berada di atas 'base' sehingga aturan ini MENANG */
+  .layered-btn {
+    background-color: #10b981;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(16, 185, 129, 0.25);
+  }
+}

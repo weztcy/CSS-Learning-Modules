@@ -1,0 +1,14 @@
+/* ==========================================================================
+   127_display_inline.css
+   Materi: Karakteristik 'display: inline'
+   ========================================================================== */
+
+.inline-tag {
+  display: inline; /* Mengalir bersama teks di baris yang sama */
+  background-color: #fef08a;
+  color: #854d0e;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  /* Catatan: width dan height diabaikan pada elemen inline */
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   97_background_color.css
+   Materi: Properti 'background-color'
+   ========================================================================== */
+
+.info-alert {
+  background-color: #e0f2fe; /* Warna latar biru langit pastel */
+  border: 1px solid #7dd3fc;
+  color: #0369a1;
+  padding: 18px 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.info-alert h4 {
+  margin: 0 0 6px 0;
+}

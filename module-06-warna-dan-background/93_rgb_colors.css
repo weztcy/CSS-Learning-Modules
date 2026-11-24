@@ -1,0 +1,21 @@
+/* ==========================================================================
+   93_rgb_colors.css
+   Materi: Fungsi 'rgb()' Sintaks Tradisional & Modern
+   ========================================================================== */
+
+/* Sintaks tradisional dengan pemisah koma */
+.rgb-legacy {
+  background-color: rgb(16, 185, 129);
+  color: white;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Sintaks modern CSS Color 4 (tanpa koma, dipisahkan spasi) */
+.rgb-modern {
+  background-color: rgb(16 185 129);
+  color: white;
+  padding: 14px;
+  border-radius: 6px;
+}

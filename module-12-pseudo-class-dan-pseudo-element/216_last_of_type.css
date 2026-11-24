@@ -1,0 +1,22 @@
+/* ==========================================================================
+   216_last_of_type.css
+   Materi: Pseudo-class ':last-of-type'
+   ========================================================================== */
+
+.essay-card {
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+/* Paragraf terakhir dari keluarga tag <p> */
+.essay-card p:last-of-type {
+  border-top: 1px dashed #cbd5e1;
+  padding-top: 12px;
+  font-style: italic;
+  color: #64748b;
+  font-size: 13px;
+}

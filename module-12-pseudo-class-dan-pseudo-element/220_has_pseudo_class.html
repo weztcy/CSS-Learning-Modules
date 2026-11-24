@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>220 - Has Pseudo-Class</title>
+  <link rel="stylesheet" href="220_has_pseudo_class.css">
+  <style>body { font-family: 'Segoe UI', sans-serif; background: #fafafa; padding: 20px; }</style>
+</head>
+<body>
+  <div class="selectable-card">
+    <label style="cursor: pointer; font-weight: 600; color: #1e293b; display: flex; align-items: center; gap: 10px;">
+      <input type="checkbox" checked style="width: 18px; height: 18px;">
+      Pilih Layanan Tambahan (Aktif)
+    </label>
+    <p style="margin: 8px 0 0 28px; font-size: 13px; color: #065f46;">
+      Wadah ini otomatis berlatar hijau cerah berkat selector <code>:has(input:checked)</code>!
+    </p>
+  </div>
+</body>
+</html>

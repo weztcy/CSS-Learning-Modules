@@ -1,0 +1,25 @@
+/* ==========================================================================
+   266_media_at_rule.css
+   Materi: At-rule '@media' Sintaks Range Modern
+   ========================================================================== */
+
+.modern-media-card {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #3b82f6;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Sintaks jangkauan matematika modern: width >= 550px */
+@media (min-width: 550px) {
+  .modern-media-card {
+    background-color: #d1fae5;
+    border-color: #10b981;
+    color: #065f46;
+  }
+}

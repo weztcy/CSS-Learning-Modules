@@ -1,0 +1,23 @@
+/* ==========================================================================
+   229_transform_skew.css
+   Materi: Transformasi 'skew(X, Y)'
+   ========================================================================== */
+
+.skewed-btn {
+  /* Memiringkan sumbu X sebesar -12 derajat */
+  transform: skewX(-12deg);
+
+  display: inline-block;
+  background-color: #dc2626;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.skewed-btn span {
+  /* Membalikkan kemiringan teks agar teks tetap tegak lurus */
+  display: inline-block;
+  transform: skewX(12deg);
+}

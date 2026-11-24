@@ -1,0 +1,29 @@
+/* ==========================================================================
+   169_grid_template_rows.css
+   Materi: Properti 'grid-template-rows'
+   ========================================================================== */
+
+.custom-rows-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Baris 1 setinggi 50px, Baris 2 setinggi 110px */
+  grid-template-rows: 50px 110px;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.row-cell {
+  background-color: #ede9fe;
+  color: #5b21b6;
+  border: 1px solid #8b5cf6;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

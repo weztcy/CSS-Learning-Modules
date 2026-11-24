@@ -1,0 +1,28 @@
+/* ==========================================================================
+   90_web_fonts.css
+   Materi: At-rule '@font-face' untuk Web Fonts Kustom
+   ========================================================================== */
+
+/* Deklarasi at-rule @font-face */
+@font-face {
+  font-family: 'OpenSansCustom';
+  src: local('Segoe UI'), local('Arial'), sans-serif;
+  font-weight: 400 700;
+  font-display: swap; /* Memastikan teks langsung muncul saat font diunduh */
+}
+
+.web-font-card {
+  font-family: 'OpenSansCustom', sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 26px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.web-font-card h3 {
+  margin-top: 0;
+  color: #0f172a;
+}

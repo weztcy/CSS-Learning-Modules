@@ -1,0 +1,20 @@
+/* ==========================================================================
+   25_attribute_selector.css
+   Materi: Attribute Presence Selector [attribute]
+   ========================================================================== */
+
+/* Menargetkan input apa pun yang memiliki atribut 'required' */
+input[required] {
+  border: 2px solid #f97316;
+  background-color: #fff7ed;
+  padding: 8px 12px;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Menargetkan tautan apa pun yang memiliki atribut 'target' */
+a[target] {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+}

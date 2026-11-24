@@ -1,0 +1,35 @@
+/* ==========================================================================
+   181_fractional_units.css
+   Materi: Satuan Fraksional 'fr'
+   ========================================================================== */
+
+.fractional-grid {
+  display: grid;
+  /* Kolom kiri mendapat 1 bagian, kolom kanan mendapat 3 bagian dari sisa ruang */
+  grid-template-columns: 1fr 3fr;
+  gap: 14px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.fr-item-1 {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fr-item-3 {
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+/* ==========================================================================
+   147_display_flex.css
+   Materi: Deklarasi 'display: flex'
+   ========================================================================== */
+
+.equal-height-flex {
+  display: flex; /* Item anak otomatis sama tinggi (stretch) */
+  gap: 14px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 550px;
+  margin: 30px auto;
+}
+
+.card-item {
+  flex: 1; /* Membagi ruang secara seimbang */
+  background-color: #eff6ff;
+  border: 1px solid #93c5fd;
+  color: #1e40af;
+  padding: 16px;
+  border-radius: 6px;
+}

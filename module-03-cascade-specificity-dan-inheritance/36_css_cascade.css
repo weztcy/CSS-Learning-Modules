@@ -1,0 +1,20 @@
+/* ==========================================================================
+   36_css_cascade.css
+   Materi: Konsep Inti Algoritma Cascade
+   ========================================================================== */
+
+/* Deklarasi level 1: Aturan umum tipe elemen */
+p.cascade-target {
+  color: #64748b;
+  font-size: 15px;
+  background-color: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Deklarasi level 2: Aturan yang lebih spesifik atau berada di posisi bawah mengalir menimpa nilai sebelumnya */
+.cascade-target {
+  color: #1e40af;
+  border-left: 4px solid #3b82f6;
+  background-color: #eff6ff;
+}

@@ -1,0 +1,21 @@
+/* ==========================================================================
+   27_attribute_contains.css
+   Materi: Attribute Substring Matching [attr*='val']
+   ========================================================================== */
+
+/* Menargetkan semua link yang URL-nya memuat kata 'google' di mana saja */
+a[href*="google"] {
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Menargetkan link yang URL-nya memuat kata 'youtube' */
+a[href*="youtube"] {
+  background-color: #fee2e2;
+  color: #dc2626;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}

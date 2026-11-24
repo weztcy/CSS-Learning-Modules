@@ -1,0 +1,34 @@
+/* ==========================================================================
+   139_stacking_context.css
+   Materi: Konsep dan Batasan Stacking Context
+   ========================================================================== */
+
+.context-parent-1 {
+  position: relative;
+  z-index: 1; /* Stacking context level 1 */
+  background-color: #fee2e2;
+  border: 1px solid #f87171;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.child-super-z {
+  position: relative;
+  z-index: 999999; /* Z-index besar ini TETAP terkurung di context-parent-1 */
+  background-color: #dc2626;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.context-parent-2 {
+  position: relative;
+  z-index: 2; /* Mengalahkan seluruh isi context-parent-1 */
+  background-color: #dbeafe;
+  border: 1px solid #3b82f6;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+}

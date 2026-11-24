@@ -1,0 +1,16 @@
+/* ==========================================================================
+   89_overflow_wrap.css
+   Materi: Properti 'overflow-wrap: break-word' (Sangat Ramah Bahasa)
+   ========================================================================== */
+
+.chat-bubble {
+  max-width: 280px;
+  background-color: #0284c7;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 16px 16px 4px 16px;
+  margin: 20px auto;
+
+  /* Prioritaskan pindah baris utuh, pecah HANYA jika kata lebih panjang dari wadah */
+  overflow-wrap: break-word;
+}

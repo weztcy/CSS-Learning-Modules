@@ -1,0 +1,66 @@
+/* ==========================================================================
+   281_form_input_styling.css
+   Materi: Styling Input Formulir Modern
+   ========================================================================== */
+
+/* Kontainer pembungkus form */
+.form-card {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 28px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+/* Kelompok input dan label */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label field dengan tipografi jelas */
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+/* Reset dan styling input teks dasar */
+.form-input,
+.form-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #1e293b;
+  background-color: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Kustomisasi teks petunjuk placeholder */
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Textarea yang dapat diubah tingginya secara vertikal saja */
+.form-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Status disabled pada input */
+.form-input:disabled {
+  background-color: #f1f5f9;
+  color: #94a3b8;
+  cursor: not-allowed;
+  border-color: #e2e8f0;
+}

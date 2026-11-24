@@ -1,0 +1,16 @@
+/* ==========================================================================
+   77_font_shorthand.css
+   Materi: Shorthand 'font'
+   ========================================================================== */
+
+.shorthand-headline {
+  /* Urutan wajib: style weight size/line-height family */
+  font: italic 700 1.25rem/1.6 'Segoe UI', Tahoma, sans-serif;
+  color: #1e3a8a;
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}

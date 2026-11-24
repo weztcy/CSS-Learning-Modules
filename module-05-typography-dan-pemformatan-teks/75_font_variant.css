@@ -1,0 +1,23 @@
+/* ==========================================================================
+   75_font_variant.css
+   Materi: Properti 'font-variant' (Small-Caps)
+   ========================================================================== */
+
+.small-caps-header {
+  font-variant: small-caps;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #0f172a;
+  border-bottom: 2px solid #0284c7;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.variant-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 480px;
+  margin: 30px auto;
+}

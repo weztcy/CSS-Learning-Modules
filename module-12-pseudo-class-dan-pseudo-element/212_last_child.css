@@ -1,0 +1,28 @@
+/* ==========================================================================
+   212_last_child.css
+   Materi: Pseudo-class ':last-child'
+   ========================================================================== */
+
+.checklist-card {
+  list-style: none;
+  padding: 0;
+  max-width: 450px;
+  margin: 30px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.checklist-card li {
+  padding: 12px 18px;
+  border-bottom: 1px solid #e2e8f0;
+  background: white;
+}
+
+/* Anak terakhir mutlak di dalam daftar */
+.checklist-card li:last-child {
+  border-bottom: none;
+  background-color: #f0fdf4;
+  color: #15803d;
+  font-weight: bold;
+}

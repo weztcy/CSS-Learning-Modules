@@ -1,0 +1,28 @@
+/* ==========================================================================
+   244_animation_play_state.css
+   Materi: Properti 'animation-play-state' (running vs paused)
+   ========================================================================== */
+
+@keyframes gentleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating-box {
+  animation: gentleFloat 2s ease-in-out infinite;
+  
+  background-color: #7c3aed;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 380px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Jeda animasi saat disentuh kursor */
+.floating-box:hover {
+  animation-play-state: paused;
+}

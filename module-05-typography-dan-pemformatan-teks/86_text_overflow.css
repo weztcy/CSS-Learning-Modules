@@ -1,0 +1,21 @@
+/* ==========================================================================
+   86_text_overflow.css
+   Materi: Properti 'text-overflow: ellipsis'
+   ========================================================================== */
+
+.truncate-single-line {
+  width: 280px; /* Batas lebar kotak */
+  
+  /* Tiga serangkai wajib text-overflow: */
+  white-space: nowrap;    /* 1. Cegah teks turun ke baris baru */
+  overflow: hidden;        /* 2. Sembunyikan bagian yang keluar batas */
+  text-overflow: ellipsis; /* 3. Ganti ujung teks yang terpotong dengan '...' */
+
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 12px 16px;
+  border-radius: 6px;
+  color: #1e293b;
+  font-weight: 500;
+  margin: 30px auto;
+}

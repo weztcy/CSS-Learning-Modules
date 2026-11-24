@@ -1,0 +1,23 @@
+/* ==========================================================================
+   253_max_function.css
+   Materi: Fungsi 'max(val1, val2)'
+   ========================================================================== */
+
+.max-height-card {
+  width: 90%;
+  max-width: 440px;
+  
+  /* Tidak pernah lebih pendek dari 120px, mengembang jika 20vw lebih besar */
+  height: max(120px, 15vw);
+
+  background-color: #eff6ff;
+  border: 1px solid #93c5fd;
+  color: #1e40af;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

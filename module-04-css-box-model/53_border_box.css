@@ -1,0 +1,16 @@
+/* ==========================================================================
+   53_border_box.css
+   Materi: box-sizing: border-box (Model Modern Terprediksi)
+   ========================================================================== */
+
+.border-box-element {
+  box-sizing: border-box; /* Padding & border diserap ke dalam width */
+  width: 280px;
+  padding: 30px;
+  border: 10px solid #10b981;
+  background-color: #d1fae5;
+  color: #065f46;
+  margin: 20px auto;
+  border-radius: 6px;
+  /* Total lebar rendered tetap TEPAT 280px! Konten otomatis menyusut */
+}

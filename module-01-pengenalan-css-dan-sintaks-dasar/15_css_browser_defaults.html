@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>15 - Default Styling Browser</title>
+  <link rel="stylesheet" href="15_css_browser_defaults.css">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f1f5f9; padding: 30px; margin: 0; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 750px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <h2 style="text-align: center; color: #0f172a;">Perbandingan Default Browser vs Custom CSS</h2>
+  <div class="grid">
+    <div class="default-zone">
+      <small style="color: #64748b;">Default Browser UA</small>
+      <h3>Judul Bawaan</h3>
+      <p>Paragraf memiliki margin atas dan bawah bawaan.</p>
+      <ul>
+        <li>Item daftar 1</li>
+        <li>Item daftar 2</li>
+      </ul>
+    </div>
+
+    <div class="custom-zone">
+      <small style="color: #2563eb; font-weight: bold;">Custom Controlled</small>
+      <h3>Judul Terkontrol</h3>
+      <p>Seluruh jarak margin dan padding diatur secara presisi.</p>
+      <ul>
+        <li>Item daftar dikustomisasi</li>
+        <li>Item daftar dikustomisasi</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

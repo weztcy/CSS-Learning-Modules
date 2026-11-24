@@ -1,0 +1,18 @@
+/* ==========================================================================
+   261_custom_property_fallback.css
+   Materi: Fallback Cadangan pada Fungsi 'var()'
+   ========================================================================== */
+
+.fallback-box {
+  /* Variabel --undefined-bg tidak pernah didefinisikan, sehingga fallback #ea580c digunakan */
+  background-color: var(--undefined-bg, #fff7ed);
+  border: 2px solid var(--undefined-border, #ea580c);
+  color: var(--undefined-text, #9a3412);
+
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 450px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   217_not_pseudo_class.css
+   Materi: Pseudo-class Negasi ':not()'
+   ========================================================================== */
+
+.clean-list {
+  list-style: none;
+  padding: 0;
+  max-width: 450px;
+  margin: 30px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.clean-list li {
+  padding: 12px 18px;
+}
+
+/* Berikan border bawah pada semua <li> KECUALI yang terakhir */
+.clean-list li:not(:last-child) {
+  border-bottom: 1px solid #e2e8f0;
+}

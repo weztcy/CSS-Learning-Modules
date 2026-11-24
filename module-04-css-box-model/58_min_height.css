@@ -1,0 +1,18 @@
+/* ==========================================================================
+   58_min_height.css
+   Materi: Properti 'min-height'
+   ========================================================================== */
+
+.min-height-card {
+  min-height: 160px; /* Tinggi minimum terjamin */
+  background-color: #ffffff;
+  border-left: 4px solid #10b981;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  max-width: 480px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

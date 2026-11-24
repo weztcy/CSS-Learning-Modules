@@ -1,0 +1,18 @@
+/* ==========================================================================
+   120_multiple_box_shadows.css
+   Materi: Multiple Box Shadows (Bayangan Realistis Berlapis)
+   ========================================================================== */
+
+.photorealistic-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 480px;
+  margin: 30px auto;
+
+  /* Lapisan 1: Bayangan kontak tajam dekat dasar */
+  /* Lapisan 2: Bayangan difusi lembut melayang tinggi */
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 20px 25px -5px rgba(0, 0, 0, 0.06);
+}

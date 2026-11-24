@@ -1,0 +1,31 @@
+/* ==========================================================================
+   159_order_property.css
+   Materi: Properti 'order' (Manipulasi Urutan Visual)
+   ========================================================================== */
+
+.order-container {
+  display: flex;
+  gap: 12px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.box-first-in-html {
+  order: 2; /* Digeser ke belakang */
+  background-color: #e2e8f0;
+  padding: 14px;
+  border-radius: 6px;
+}
+
+.box-last-in-html {
+  order: 1; /* Dimajukan ke depan */
+  background-color: #10b981;
+  color: white;
+  padding: 14px;
+  border-radius: 6px;
+  font-weight: 700;
+}

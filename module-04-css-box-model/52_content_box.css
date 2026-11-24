@@ -1,0 +1,16 @@
+/* ==========================================================================
+   52_content_box.css
+   Materi: box-sizing: content-box (Model Tradisional)
+   ========================================================================== */
+
+.content-box-element {
+  box-sizing: content-box; /* Model default */
+  width: 280px;
+  padding: 30px;
+  border: 10px solid #ef4444;
+  background-color: #fee2e2;
+  color: #991b1b;
+  margin: 20px auto;
+  border-radius: 6px;
+  /* Total lebar rendered: 280 + (30*2) + (10*2) = 360px! */
+}

@@ -1,0 +1,22 @@
+/* ==========================================================================
+   19_id_selector.css
+   Materi: ID Selector (#)
+   ========================================================================== */
+
+/* ID Selector hanya berlaku untuk satu elemen unik dengan id="main-navbar" */
+#main-navbar {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 16px 24px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#nav-brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: #38bdf8;
+}

@@ -1,0 +1,24 @@
+/* ==========================================================================
+   231_transform_3d.css
+   Materi: Transformasi 3D (rotateX & rotateY)
+   ========================================================================== */
+
+.perspective-parent {
+  perspective: 800px; /* Memberikan kedalaman sudut pandang 3D */
+  padding: 40px;
+}
+
+.card-3d {
+  /* Memutar kartu di sumbu Y dan sedikit di sumbu X */
+  transform: rotateY(25deg) rotateX(10deg);
+  
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: bold;
+}

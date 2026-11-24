@@ -1,0 +1,16 @@
+/* ==========================================================================
+   103_background_shorthand.css
+   Materi: Shorthand 'background'
+   ========================================================================== */
+
+.shorthand-box {
+  /* color | image | position / size | repeat */
+  background: #1e293b linear-gradient(135deg, #2563eb, #1d4ed8) center / cover no-repeat;
+  
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

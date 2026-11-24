@@ -1,0 +1,21 @@
+/* ==========================================================================
+   74_font_style.css
+   Materi: Properti 'font-style' (Italic & Oblique)
+   ========================================================================== */
+
+.italic-quote {
+  font-style: italic;
+  font-size: 18px;
+  color: #4338ca;
+  background-color: #e0e7ff;
+  border-left: 4px solid #6366f1;
+  padding: 16px 20px;
+  border-radius: 6px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.reset-normal-style {
+  font-style: normal; /* Mengembalikan teks ke posisi tegak biasa */
+  font-weight: bold;
+}

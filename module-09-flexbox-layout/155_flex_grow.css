@@ -1,0 +1,35 @@
+/* ==========================================================================
+   155_flex_grow.css
+   Materi: Properti 'flex-grow'
+   ========================================================================== */
+
+.search-bar-flex {
+  display: flex;
+  gap: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.search-input {
+  /* Menyerap seluruh sisa ruang yang tersedia di kontainer */
+  flex-grow: 1;
+  border: 1px solid #94a3b8;
+  padding: 10px 14px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-btn {
+  /* flex-grow default 0: tidak meregang */
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}

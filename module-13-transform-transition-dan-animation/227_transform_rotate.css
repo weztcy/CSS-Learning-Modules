@@ -1,0 +1,18 @@
+/* ==========================================================================
+   227_transform_rotate.css
+   Materi: Transformasi 'rotate(deg)'
+   ========================================================================== */
+
+.rotated-sticker {
+  /* Memutar elemen sebesar -6 derajat berlawanan jarum jam */
+  transform: rotate(-6deg);
+
+  display: inline-block;
+  background-color: #f59e0b;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,32 @@
+/* ==========================================================================
+   278_scroll_snap_type.css
+   Materi: 'scroll-snap-type' (Kontainer Carousel Snap)
+   ========================================================================== */
+
+.snap-container-x {
+  display: flex;
+  overflow-x: auto;
+  /* Mengunci perhentian gulir pada sumbu X secara mandatory (wajib pas) */
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  max-width: 460px;
+  margin: 30px auto;
+}
+
+.snap-slide {
+  /* Setiap slide mengunci ke titik awal wadah */
+  scroll-snap-align: start;
+  flex: 0 0 85%;
+  height: 120px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

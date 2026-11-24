@@ -1,0 +1,28 @@
+/* ==========================================================================
+   152_align_items.css
+   Materi: Properti 'align-items' (Perataan Sumbu Silang)
+   ========================================================================== */
+
+.align-center-row {
+  display: flex;
+  align-items: center; /* Meratakan item secara vertikal di tengah */
+  gap: 16px;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 16px 20px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+}
+
+.icon-badge {
+  width: 42px;
+  height: 42px;
+  background-color: #dbeafe;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

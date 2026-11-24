@@ -1,0 +1,15 @@
+/* ==========================================================================
+   193_fluid_typography_clamp.css
+   Materi: Tipografi Fluida dengan 'clamp(min, val, max)'
+   ========================================================================== */
+
+.clamp-headline {
+  /* Minimal 20px, Ideal 4% lebar layar (4vw), Maksimal 40px */
+  font-size: clamp(1.25rem, 4vw, 2.5rem);
+  font-weight: 800;
+  color: #1e3a8a;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 550px;
+  line-height: 1.25;
+}

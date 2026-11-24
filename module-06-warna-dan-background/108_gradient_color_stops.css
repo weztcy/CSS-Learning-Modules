@@ -1,0 +1,21 @@
+/* ==========================================================================
+   108_gradient_color_stops.css
+   Materi: Gradient Color Stops & Hard Stops
+   ========================================================================== */
+
+.striped-card {
+  /* Hard color stop: menciptakan garis batas tegas antara dua warna */
+  background: linear-gradient(
+    90deg,
+    #fef3c7 0% 50%,
+    #dcfce7 50% 100%
+  );
+  border: 1px solid #cbd5e1;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+}

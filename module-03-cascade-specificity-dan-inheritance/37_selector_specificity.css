@@ -1,0 +1,19 @@
+/* ==========================================================================
+   37_selector_specificity.css
+   Materi: Perhitungan Bobot Selector Specificity
+   ========================================================================== */
+
+/* Bobot (0, 0, 0, 1): Type selector */
+h2 {
+  color: #dc2626; /* Merah */
+}
+
+/* Bobot (0, 0, 1, 0): Class selector mengalahkan type selector */
+.title-class {
+  color: #059669; /* Hijau */
+}
+
+/* Bobot (0, 1, 0, 0): ID selector mengalahkan class selector */
+#title-id {
+  color: #7c3aed; /* Ungu (Pemenang!) */
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   145_object_position.css
+   Materi: Properti 'object-position'
+   ========================================================================== */
+
+.focus-top-img {
+  width: 100%;
+  max-width: 440px;
+  height: 140px;
+  border-radius: 8px;
+  object-fit: cover;
+
+  /* Memfokuskan potongan pada bagian atas gambar */
+  object-position: center top;
+
+  display: block;
+  margin: 20px auto;
+}

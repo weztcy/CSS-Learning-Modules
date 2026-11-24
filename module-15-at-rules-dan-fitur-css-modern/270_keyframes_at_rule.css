@@ -1,0 +1,23 @@
+/* ==========================================================================
+   270_keyframes_at_rule.css
+   Materi: At-rule '@keyframes'
+   ========================================================================== */
+
+@keyframes bobbingMotion {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+.bobbing-element {
+  animation: bobbingMotion 2s ease-in-out infinite;
+
+  background-color: #2563eb;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+}

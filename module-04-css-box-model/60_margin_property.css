@@ -1,0 +1,22 @@
+/* ==========================================================================
+   60_margin_property.css
+   Materi: Properti 'margin' dan Ragam Notasi Shorthand
+   ========================================================================== */
+
+/* Shorthand 2 nilai: vertikal (atas-bawah) 20px, horizontal (kiri-kanan) 40px */
+.margin-two-values {
+  margin: 20px 40px;
+  background-color: #e0e7ff;
+  border: 1px solid #818cf8;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+/* Shorthand 4 nilai (Clockwise): Top 10px, Right 30px, Bottom 20px, Left 50px */
+.margin-four-values {
+  margin: 10px 30px 20px 50px;
+  background-color: #fef3c7;
+  border: 1px solid #fcd34d;
+  padding: 16px;
+  border-radius: 6px;
+}

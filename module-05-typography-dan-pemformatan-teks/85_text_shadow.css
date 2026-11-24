@@ -1,0 +1,21 @@
+/* ==========================================================================
+   85_text_shadow.css
+   Materi: Properti 'text-shadow'
+   ========================================================================== */
+
+.neon-title {
+  background-color: #0f172a;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.neon-title h2 {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 0;
+  /* Lapisan bayangan ganda untuk efek glowing neon */
+  text-shadow: 0 0 10px #38bdf8, 0 0 20px #0284c7;
+}

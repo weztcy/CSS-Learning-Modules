@@ -1,0 +1,23 @@
+/* ==========================================================================
+   78_line_height.css
+   Materi: Properti 'line-height' (Kenyamanan Membaca)
+   ========================================================================== */
+
+/* Jarak baris sempit (terlalu padat untuk artikel) */
+.tight-lines {
+  line-height: 1.15;
+  color: #991b1b;
+  background-color: #fee2e2;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+/* Jarak baris ideal untuk artikel dan materi edukasi */
+.comfortable-lines {
+  line-height: 1.7; /* Best Practice: angka murni unitless */
+  color: #065f46;
+  background-color: #ecfdf5;
+  padding: 16px;
+  border-radius: 6px;
+}

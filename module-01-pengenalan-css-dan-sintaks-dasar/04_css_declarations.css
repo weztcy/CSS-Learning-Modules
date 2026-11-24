@@ -1,0 +1,24 @@
+/* ==========================================================================
+   04_css_declarations.css
+   Materi: CSS Declarations (Property & Value Pair)
+   ========================================================================== */
+
+.quote-box {
+  /* Deklarasi 1: menentukan warna latar belakang kotak */
+  background-color: #f8fafc;
+
+  /* Deklarasi 2: membuat garis batas kiri tebal sebagai aksen kutipan */
+  border-left: 5px solid #3b82f6;
+
+  /* Deklarasi 3: memberikan ruang lapang di bagian dalam kotak */
+  padding: 18px 24px;
+
+  /* Deklarasi 4: membatasi lebar maksimal elemen agar tetap nyaman dipandang */
+  max-width: 580px;
+
+  /* Deklarasi 5: mengatur gaya huruf miring khas kutipan */
+  font-style: italic;
+
+  /* Deklarasi 6: menetapkan warna teks menjadi abu-abu gelap */
+  color: #475569;
+}

@@ -1,0 +1,17 @@
+/* ==========================================================================
+   84_word_spacing.css
+   Materi: Properti 'word-spacing'
+   ========================================================================== */
+
+.wide-words {
+  word-spacing: 8px; /* Jarak ekstra antar kata */
+  font-size: 18px;
+  color: #1e3a8a;
+  background-color: #eff6ff;
+  border: 1px dashed #60a5fa;
+  padding: 16px;
+  border-radius: 6px;
+  max-width: 480px;
+  margin: 30px auto;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   188_media_max_width.css
+   Materi: Breakpoint 'max-width' (Desktop-First)
+   ========================================================================== */
+
+/* Gaya dasar Desktop */
+.desktop-first-layout {
+  display: flex;
+  gap: 14px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.df-item {
+  flex: 1;
+  background-color: #eff6ff;
+  color: #1e40af;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Khusus Layar Kecil (Ponsel &le; 550px) */
+@media (max-width: 550px) {
+  .desktop-first-layout {
+    flex-direction: column; /* Beralih vertikal */
+  }
+}

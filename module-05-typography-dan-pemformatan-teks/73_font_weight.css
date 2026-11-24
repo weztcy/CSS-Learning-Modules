@@ -1,0 +1,31 @@
+/* ==========================================================================
+   73_font_weight.css
+   Materi: Properti 'font-weight' (Skala Ketebalan Huruf)
+   ========================================================================== */
+
+.weight-light {
+  font-weight: 300;
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.weight-regular {
+  font-weight: 400; /* Nilai bawaan normal */
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.weight-semibold {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.weight-extrabold {
+  font-weight: 800;
+  font-size: 18px;
+  color: #0f172a;
+}

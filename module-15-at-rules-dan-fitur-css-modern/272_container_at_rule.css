@@ -1,0 +1,27 @@
+/* ==========================================================================
+   272_container_at_rule.css
+   Materi: At-rule '@container'
+   ========================================================================== */
+
+.demo-container-root {
+  container-type: inline-size;
+  max-width: 460px;
+  margin: 30px auto;
+}
+
+.responsive-sub-item {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@container (min-width: 380px) {
+  .responsive-sub-item {
+    background-color: #f0fdf4;
+    border-color: #86efac;
+    color: #166534;
+  }
+}

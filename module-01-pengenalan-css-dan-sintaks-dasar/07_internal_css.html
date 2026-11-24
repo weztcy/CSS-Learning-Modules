@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>07 - Internal CSS</title>
+  <link rel="stylesheet" href="07_internal_css.css">
+  <!-- Blok Internal CSS berada di dalam tag style pada head -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f8fafc;
+      padding: 40px;
+    }
+    .page-wrapper {
+      max-width: 620px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #cbd5e1;
+    }
+    .internal-heading {
+      color: #0f766e;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <span class="badge-info">Metode Internal CSS</span>
+    <h2 class="internal-heading">Styling Khusus Satu Halaman</h2>
+    <p>Penggunaan tag <code>&lt;style&gt;</code> memungkinkan styling cepat untuk satu dokumen HTML mandiri.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* ==========================================================================
+   259_counter_reset_increment.css
+   Materi: 'counter-reset' dan 'counter-increment' Kelipatan
+   ========================================================================== */
+
+.step-multiplier-list {
+  counter-reset: scoreCount 0;
+  list-style: none;
+  padding: 0;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.step-multiplier-list li {
+  /* Naik sebesar 10 di setiap item */
+  counter-increment: scoreCount 10;
+  background-color: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.step-multiplier-list li::before {
+  content: "Poin +" counter(scoreCount) " — ";
+  font-weight: bold;
+}

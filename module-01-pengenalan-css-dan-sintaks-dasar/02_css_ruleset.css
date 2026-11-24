@@ -1,0 +1,28 @@
+/* ==========================================================================
+   02_css_ruleset.css
+   Materi: Anatomi Ruleset CSS (Selector + Declaration Block)
+   ========================================================================== */
+
+/* Ruleset 1: Menata wadah banner promosi */
+.banner {
+  /* Declaration block dimulai dari kurung kurawal buka */
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+  text-align: center;
+  /* Declaration block diakhiri dengan kurung kurawal tutup */
+}
+
+/* Ruleset 2: Menata tombol di dalam banner */
+.banner-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #1d4ed8;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 15px;
+}

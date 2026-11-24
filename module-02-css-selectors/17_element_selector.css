@@ -1,0 +1,31 @@
+/* ==========================================================================
+   17_element_selector.css
+   Materi: Element / Type Selector
+   ========================================================================== */
+
+/* Menargetkan semua elemen <h2> */
+h2 {
+  color: #0f172a;
+  font-size: 24px;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+/* Menargetkan semua elemen paragraf <p> */
+p {
+  color: #334155;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+/* Menargetkan semua elemen kutipan <blockquote> */
+blockquote {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 12px 18px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #1e40af;
+}

@@ -1,0 +1,28 @@
+/* ==========================================================================
+   01_css_basic_syntax.css
+   Materi: Sintaks Dasar CSS (Selector, Property, Value)
+   ========================================================================== */
+
+/* Selector 'h1' menargetkan seluruh elemen judul tingkat pertama pada dokumen. */
+h1 {
+  /* Properti 'color' mengatur warna teks judul menggunakan nilai heksadesimal. */
+  color: #1e3a8a;
+
+  /* Properti 'font-size' menentukan ukuran teks sebesar 32 piksel. */
+  font-size: 32px;
+
+  /* Properti 'text-align' memposisikan teks di bagian tengah wadah. */
+  text-align: center;
+}
+
+/* Selector '.intro-text' menargetkan elemen paragraf dengan kelas 'intro-text'. */
+.intro-text {
+  /* Memberikan warna abu-abu netral gelap agar nyaman dibaca. */
+  color: #334155;
+
+  /* Mengatur jarak antar baris teks (line-height) untuk keterbacaan yang optimal. */
+  line-height: 1.6;
+
+  /* Mengatur batas margin bawah agar paragraf tidak menempel dengan elemen berikutnya. */
+  margin-bottom: 20px;
+}

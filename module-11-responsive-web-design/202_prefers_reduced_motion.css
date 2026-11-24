@@ -1,0 +1,26 @@
+/* ==========================================================================
+   202_prefers_reduced_motion.css
+   Materi: Aksesibilitas 'prefers-reduced-motion'
+   ========================================================================== */
+
+.accessible-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #cbd5e1;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Nonaktifkan animasi jika pengguna sensitif terhadap gerakan */
+@media (prefers-reduced-motion: reduce) {
+  .accessible-spinner {
+    animation: none;
+    border-top-color: #10b981; /* Ganti dengan tanda status statis */
+  }
+}

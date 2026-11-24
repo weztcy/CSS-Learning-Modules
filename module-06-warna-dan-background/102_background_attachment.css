@@ -1,0 +1,19 @@
+/* ==========================================================================
+   102_background_attachment.css
+   Materi: Properti 'background-attachment' (Scroll vs Fixed)
+   ========================================================================== */
+
+.fixed-bg-card {
+  background-image: radial-gradient(#cbd5e1 2px, transparent 2px);
+  background-size: 24px 24px;
+  
+  /* Latar belakang terkunci terhadap viewport */
+  background-attachment: fixed;
+
+  border: 1px solid #94a3b8;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+}

@@ -1,0 +1,18 @@
+/* ==========================================================================
+   82_text_indent.css
+   Materi: Properti 'text-indent' (Indentasi Baris Pertama)
+   ========================================================================== */
+
+.indented-paragraph {
+  /* Baris pertama menjorok ke dalam sejauh 2 kali ukuran font saat ini */
+  text-indent: 2.5em;
+  line-height: 1.8;
+  color: #334155;
+  text-align: justify;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  max-width: 500px;
+  margin: 20px auto;
+}

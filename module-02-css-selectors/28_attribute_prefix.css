@@ -1,0 +1,26 @@
+/* ==========================================================================
+   28_attribute_prefix.css
+   Materi: Attribute Prefix Matching [attr^='val']
+   ========================================================================== */
+
+/* Menargetkan tautan aman yang diawali protokol 'https://' */
+a[href^="https://"] {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/* Menargetkan tautan panggilan telepon */
+a[href^="tel:"] {
+  background-color: #f0fdf4;
+  color: #15803d;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}

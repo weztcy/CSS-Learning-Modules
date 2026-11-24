@@ -1,0 +1,27 @@
+/* ==========================================================================
+   79_text_align.css
+   Materi: Properti 'text-align'
+   ========================================================================== */
+
+.align-left {
+  text-align: left;
+  border-left: 3px solid #3b82f6;
+  padding: 10px 14px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.align-center {
+  text-align: center;
+  border-top: 3px solid #10b981;
+  padding: 10px 14px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.align-right {
+  text-align: right;
+  border-right: 3px solid #f59e0b;
+  padding: 10px 14px;
+  background: white;
+}

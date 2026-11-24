@@ -1,0 +1,45 @@
+/* ==========================================================================
+   08_external_css.css
+   Materi: External CSS (Best Practice Pemisahan Kode Presentasi)
+   ========================================================================== */
+
+/* Wadah utama halaman dengan batas lebar responsif */
+.app-shell {
+  max-width: 680px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+/* Area header navigasi */
+.app-header {
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 18px 24px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Area konten artikel */
+.app-content {
+  padding: 24px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* Area footer penutup */
+.app-footer {
+  background-color: #f1f5f9;
+  padding: 12px 24px;
+  font-size: 13px;
+  color: #64748b;
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+}
